@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Реєстрація — Canby Glass</title>
+
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body class="inner register">
+
+  <!-- ===== HEADER =================================================== -->
+  <header>
+    <div class="container header-bar">
+      <a class="logo" href="../index.html"><img src="../assets/img/logo.svg" alt="Canby Glass" width="144"></a>
+      <nav aria-label="Головне меню">
+        <ul class="site-nav">
+          <li><a class="nav-link" href="../index.html">Головна</a></li>
+          <li><a class="nav-link" href="articles.html">Статті</a></li>
+          <li><a class="nav-link" href="catalog.html">Каталог</a></li>
+          <li><a class="nav-link" href="gallery.html">Галерея</a></li>
+          <li><a class="nav-link" href="contacts.html">Контакти</a></li>
+          <li><a class="nav-link" href="page-nav.html">Навігація</a></li>
+          <li><a class="nav-link" aria-current="page" href="registration.html">Реєстрація</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="page-title">Реєстрація</h1>
+
+  <!-- ===== MAIN ===================================================== -->
+  <main class="container">
+    <div class="articles-card register-card">
+
+      <form class="reg-form" action="https://tests.fomenko.top/echo/index.php" method="GET"
+        enctype="multipart/form-data">
+
+        <!-- Особисті дані -->
+        <fieldset>
+          <legend>Особисті дані</legend>
+
+          <div class="form-row">
+            <label for="fullname">Прізвище, Ім'я</label>
+            <input id="fullname" name="fullname" type="text" placeholder="Введіть прізвище, ім'я" required>
+          </div>
+
+          <div class="form-row">
+            <label for="photo">Додати фотографію</label>
+            <input id="photo" name="photo" type="file" accept="image/*">
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="example@mail.com" required>
+          </div>
+
+          <div class="form-row">
+            <label for="password">Пароль</label>
+            <input id="password" name="password" type="password" placeholder="Введіть пароль" required>
+          </div>
+
+          <div class="form-row">
+            <label for="website">Адреса сайту</label>
+            <input id="website" name="website" type="url" value="https://mysite.name">
+          </div>
+        </fieldset>
+
+        <!-- Стать -->
+        <fieldset class="fieldset-inline">
+          <legend>Стать</legend>
+
+          <label><input type="radio" id="male" name="gender" value="male"> Чоловіча</label>
+          <label><input type="radio" id="female" name="gender" value="female"> Жіноча</label>
+        </fieldset>
+
+        <!-- Дата народження -->
+        <fieldset>
+          <legend>Дата народження</legend>
+
+          <div class="form-row">
+            <label for="birthdate">Дата народження</label>
+            <input id="birthdate" name="birthdate" type="date">
+          </div>
+        </fieldset>
+
+        <!-- Тип зв'язку -->
+        <fieldset class="fieldset-inline">
+          <legend>Тип зв'язку</legend>
+
+          <label><input type="checkbox" id="email_contact" name="contact[]" value="email"> Email</label>
+          <label><input type="checkbox" id="telegram" name="contact[]" value="telegram"> Telegram</label>
+          <label><input type="checkbox" id="whatsapp" name="contact[]" value="whatsapp"> WhatsApp</label>
+        </fieldset>
+
+        <!-- Про себе -->
+        <fieldset>
+          <legend>Про себе</legend>
+
+          <div class="form-row">
+            <label for="about">Розкажіть про себе</label>
+            <textarea id="about" name="about" rows="6" placeholder="Ваш текст…"></textarea>
+          </div>
+        </fieldset>
+
+        <!-- Кнопки -->
+        <div class="reg-buttons">
+          <button class="btn btn--reset" type="reset">Очистити форму</button>
+          <button class="btn btn--outline" type="submit">Зареєструватися</button>
+        </div>
+
+      </form>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER =================================================== -->
+  <footer class="site-footer">© All rights reserved. Andrii Dolzhenko 2026</footer>
+</body>
+
+</html>

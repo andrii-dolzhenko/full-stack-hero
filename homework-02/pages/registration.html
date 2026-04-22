@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Реєстрація — Canby Glass</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+  <h1>Реєстрація</h1>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Головна</a></li>
+      <li><a href="articles.html">Статті</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="page-nav.html">Навігація</a></li>
+      <li><a href="registration.html">Реєстрація</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+
+    <!-- Особисті дані -->
+    <fieldset>
+      <legend>Особисті дані</legend>
+
+      <div>
+        <label for="fullname">Прізвище, Ім'я</label>
+        <div>
+          <input type="text" id="fullname" name="fullname" placeholder="Введіть прізвище, ім'я" required>
+        </div>
+      </div>
+
+      <div>
+        <label for="photo">Додати фотографію</label>
+        <div>
+          <input type="file" id="photo" name="photo">
+        </div>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <div>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+        </div>
+      </div>
+
+      <div>
+        <label for="password">Пароль</label>
+        <div>
+          <input type="password" id="password" name="password" placeholder="Введіть пароль" required>
+        </div>
+      </div>
+
+      <div>
+        <label for="website">Адреса сайту</label>
+        <div>
+          <input type="url" id="website" name="website" value="https://mysite.name">
+        </div>
+      </div>
+
+    </fieldset>
+
+    <!-- Стать -->
+    <fieldset>
+      <legend>Стать</legend>
+
+      <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Чоловіча</label>
+      </div>
+
+      <div>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Жіноча</label>
+      </div>
+
+    </fieldset>
+
+    <!-- Дата народження -->
+    <fieldset>
+      <legend>Дата народження</legend>
+
+      <div>
+        <label for="birthdate">Дата народження</label>
+        <div>
+          <input type="date" id="birthdate" name="birthdate">
+        </div>
+      </div>
+
+    </fieldset>
+
+    <!-- Тип зв'язку -->
+    <fieldset>
+      <legend>Тип зв'язку</legend>
+
+      <div>
+        <input type="checkbox" id="email_contact" name="contact[]" value="email">
+        <label for="email_contact">Email</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="telegram" name="contact[]" value="telegram">
+        <label for="telegram">Telegram</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="whatsapp" name="contact[]" value="whatsapp">
+        <label for="whatsapp">WhatsApp</label>
+      </div>
+
+    </fieldset>
+
+    <!-- Про себе -->
+    <fieldset>
+      <legend>Про себе</legend>
+
+      <div>
+        <label for="about">Розкажіть про себе</label>
+        <div>
+          <textarea id="about" name="about" rows="5" cols="40" placeholder="Ваш текст..."></textarea>
+        </div>
+      </div>
+
+    </fieldset>
+
+    <!-- Кнопки -->
+    <fieldset>
+      <legend>Дії</legend>
+      <div>
+        <button type="reset">Очистити форму</button>
+        <button type="submit">Зареєструватися</button>
+      </div>
+    </fieldset>
+
+  </form>
+
+  <hr>
+
+  <footer>
+    <p>© All rights reserved. Andrii Dolzhenko. 2026</p>
+  </footer>
+
+</body>
+
+</html>

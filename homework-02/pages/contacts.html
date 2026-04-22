@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Контакти — Canby Glass</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+  <h1>Контакти</h1>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Головна</a></li>
+      <li><a href="articles.html">Статті</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="page-nav.html">Навігація</a></li>
+      <li><a href="registration.html">Реєстрація</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <!-- Адреса -->
+  <h2>Адреса</h2>
+  <p>вулиця Кирпичова, 2, Харків, Харківська область, 61000</p>
+  <p>Телефон: <a href="tel:+3800577076634">+380057 707 6634</a></p>
+
+  <!-- Карта -->
+  <h2>Як дістатися</h2>
+
+  <iframe src="https://maps.google.com/maps?q=вулиця%20Кирпичова%202,%20Харків&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    width="600" height="400" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <!-- Форма зворотного зв'язку -->
+  <h2>Зворотний зв'язок</h2>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+
+    <div>
+      <label for="name">Ім'я</label>
+      <div>
+        <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+      </div>
+    </div>
+
+    <div>
+      <label for="phone">Телефон</label>
+      <div>
+        <input type="tel" id="phone" name="phone" placeholder="+380..." required>
+      </div>
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <div>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+      </div>
+    </div>
+
+    <div>
+      <label for="question">Ваше питання</label>
+      <div>
+        <textarea id="question" name="question" rows="5" cols="40" placeholder="Напишіть ваше питання..."
+          required></textarea>
+      </div>
+    </div>
+
+    <div>
+      <button type="submit">Відправити</button>
+      <button type="reset">Очистити</button>
+    </div>
+
+  </form>
+
+  <hr>
+
+  <footer>
+    <p>© All rights reserved. Andrii Dolzhenko. 2026</p>
+  </footer>
+
+</body>
+
+</html>

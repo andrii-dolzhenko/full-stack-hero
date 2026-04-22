@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакти — Canby Glass</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- шрифти -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- глобальний CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body class="inner contacts">
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="container header-bar">
+      <a class="logo" href="../index.html">
+        <img src="../assets/img/logo.svg" alt="Canby Glass Design Studio" width="144">
+      </a>
+
+      <nav aria-label="Головне меню">
+        <ul class="site-nav">
+          <li><a class="nav-link" href="../index.html">Головна</a></li>
+          <li><a class="nav-link" href="articles.html">Статті</a></li>
+          <li><a class="nav-link" href="catalog.html">Каталог</a></li>
+          <li><a class="nav-link" href="gallery.html">Галерея</a></li>
+          <li><a class="nav-link" href="contacts.html" aria-current="page">Контакти</a></li>
+          <li><a class="nav-link" href="page-nav.html">Навігація</a></li>
+          <li><a class="nav-link" href="registration.html">Реєстрація</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="page-title">Контакти</h1>
+
+  <!-- ===== CONTENT ===== -->
+  <main class="container">
+    <div class="articles-card contact-card">
+
+      <!-- інформація + форма -->
+      <section class="contact-info">
+        <h2>Звʼяжіться з нами</h2>
+
+        <p><strong>Адреса:</strong><br>
+          вулиця Кирпичова&nbsp;2, Харків, 61000</p>
+
+        <p><strong>Телефон:</strong><br>
+          <a href="tel:+3800577076634">+38&nbsp;(057)&nbsp;707-66-34</a>
+        </p>
+
+        <form class="contact-form" action="https://tests.fomenko.top/echo/index.php" method="GET">
+          <div class="form-row">
+            <label for="name">Імʼя</label>
+            <input id="name" name="name" type="text" placeholder="Ваше ім'я" required>
+          </div>
+
+          <div class="form-row">
+            <label for="phone">Телефон</label>
+            <input id="phone" name="phone" type="tel" placeholder="+380…" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="example@mail.com" required>
+          </div>
+
+          <div class="form-row">
+            <label for="question">Ваше питання</label>
+            <textarea id="question" name="question" rows="5" placeholder="Напишіть ваше питання…" required></textarea>
+          </div>
+
+          <!-- кнопки по центру -->
+          <div class="contact-buttons">
+            <button class="btn btn--outline" type="submit">Відправити</button>
+            <button class="btn btn--reset" type="reset">Очистити</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Google Maps -->
+      <div class="contact-map" aria-hidden="true">
+        <iframe title="Мапа розташування"
+          src="https://maps.google.com/maps?q=вулиця%20Кирпичова%202%20Харків&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen loading="lazy"></iframe>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    © All rights reserved. Andrii Dolzhenko&nbsp;2026
+  </footer>
+
+</body>
+
+</html>
