@@ -1,0 +1,145 @@
+/* Базові стилі */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f8fb;
+  color: #263238;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+h1 {
+  margin-bottom: 24px;
+  color: #0d47a1;
+  font-size: 36px;
+  text-align: center;
+}
+
+.selectors-section {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.selectors-section > p,
+.class-example,
+#id-example,
+[data-example="attribute"],
+.nested-example p,
+.child-example > p,
+.previous-example,
+.previous-example + .next-example,
+.combined-example p#combined-id.combined-text[data-type="combined"],
+.list-example li {
+  margin-bottom: 14px;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+/* 1. Tag селектор */
+p {
+  background-color: #bbdefb;
+  color: blue;
+}
+
+/* 2. Class селектор */
+.class-example {
+  background-color: #c8e6c9;
+  color: green;
+}
+
+/* 3. Id селектор */
+#id-example {
+  background-color: #ffe0b2;
+  color: red;
+}
+
+/* 4. Attribute селектор */
+[data-example="attribute"] {
+  background-color: #e1bee7;
+  color: purple;
+}
+
+/* 5. Вкладений селектор */
+.nested-example p {
+  background-color: #b2ebf2;
+  color: teal;
+}
+
+/* 6. Дочірній селектор */
+.child-example > p {
+  background-color: #f8bbd0;
+  color: deeppink;
+}
+
+/* 7. Class селектор */
+.previous-example {
+  background-color: #cfd8dc;
+  color: black;
+}
+
+/* 8. Суміжний селектор */
+.previous-example + .next-example {
+  background-color: #d7ccc8;
+  color: brown;
+}
+
+/* 9. Специфічність для комбінованого селектору */
+.combined-example p {
+  background-color: #e3f2fd;
+  color: blue;
+}
+
+.combined-example .combined-text {
+  background-color: #c8e6c9;
+  color: green;
+}
+
+.combined-example [data-type="combined"] {
+  background-color: #e1bee7;
+  color: purple;
+}
+
+.combined-example #combined-id {
+  background-color: #ffcdd2;
+  color: red;
+}
+
+.combined-example p#combined-id.combined-text[data-type="combined"] {
+  background-color: #b0bec5;
+  color: black;
+  font-weight: bold;
+}
+
+/* 10. Селектори псевдокласів */
+.list-example {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.list-example li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #e0f2f1;
+  color: #263238;
+}
+
+.list-example li:first-child {
+  background-color: #ffcdd2;
+  color: darkred;
+}
+
+.list-example li:nth-child(2) {
+  background-color: #dcedc8;
+  color: darkgreen;
+}

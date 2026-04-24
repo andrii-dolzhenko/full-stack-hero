@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДЗ 4.1. Селектори CSS</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>ДЗ 4.1. Селектори CSS</h1>
+
+    <section class="selectors-section">
+      <h2>Приклади селекторів</h2>
+
+      <p>
+        Селектор p застосовується до всіх тегів p, вага 0,0,0,1
+      </p>
+
+      <p class="class-example">
+        Селектор .class-example застосовується до елемента з класом class-example, вага 0,0,1,0
+      </p>
+
+      <p id="id-example">
+        Селектор #id-example застосовується до елемента з id id-example, вага 0,1,0,0
+      </p>
+
+      <div data-example="attribute">
+        Селектор [data-example="attribute"] застосовується до елемента з атрибутом data-example, вага 0,0,1,0
+      </div>
+
+      <div class="nested-example">
+        <p>
+          Селектор .nested-example p застосовується до вкладених p, вага 0,0,1,1
+        </p>
+      </div>
+
+      <div class="child-example">
+        <p>
+          Селектор .child-example > p застосовується до прямих дочірніх p, вага 0,0,1,1
+        </p>
+      </div>
+
+      <h3 class="previous-example">
+        Селектор .previous-example, вага 0,0,1,0
+      </h3>
+
+      <p class="next-example">
+        Селектор .previous-example + .next-example застосовується до сусіднього елемента, вага 0,0,2,0
+      </p>
+
+      <section class="combined-example">
+        <p id="combined-id" class="combined-text" data-type="combined">
+          Селектор .combined-example p#combined-id.combined-text[data-type="combined"], вага 0,1,3,1
+        </p>
+      </section>
+
+      <ul class="list-example">
+        <li>
+          Селектор .list-example li:first-child, вага 0,0,2,1
+        </li>
+        <li>
+          Селектор .list-example li:nth-child(2), вага 0,0,2,1
+        </li>
+      </ul>
+
+    </section>
+  </main>
+</body>
+
+</html>
