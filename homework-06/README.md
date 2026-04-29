@@ -1,8 +1,8 @@
-# Homework 05: Tables and Composition
+# Homework 06: Tables and Composition
 
 ## Project Overview
 
-**Homework 05** is a small static HTML and CSS project focused on building table-based layouts, page navigation, and a visual composition inspired by Piet Mondrian. The project includes a home page that links to three separate task pages: two structured HTML table exercises and one geometric color composition.
+**Homework 06** is a small static HTML and CSS project focused on building table-based layouts, page navigation, and a visual composition inspired by Piet Mondrian. The project includes a home page that links to three separate task pages: two structured HTML table exercises and one geometric color composition.
 
 The project is written with semantic HTML, shared CSS styling, responsive layout rules, and reusable visual components.
 
@@ -30,7 +30,7 @@ The website provides a simple navigation hub for viewing several layout exercise
 ## Project Structure
 
 ```text
-homework-05/
+homework-06/
 ├── index.html
 ├── README.md
 ├── assets/
