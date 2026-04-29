@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мондріан</title>
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+  <main class="page">
+    <section class="page-card table-card">
+      <!-- Основна навігація -->
+      <nav class="top-nav" aria-label="Основна навігація">
+        <a class="top-nav__link" href="../index.html">Головна</a>
+        <a class="top-nav__link" href="table1.html">Таблиця 1</a>
+        <a class="top-nav__link" href="table2.html">Таблиця 2</a>
+        <a class="top-nav__link is-active" href="mondrian.html" aria-current="page">Мондріан</a>
+      </nav>
+
+      <div class="table-content">
+        <h1 class="page-title">Мондріан</h1>
+
+        <div class="table-wrap">
+          <table class="mondrian-table">
+            <caption class="table-caption mondrian-caption">Композиція у стилі Мондріана</caption>
+
+            <colgroup>
+              <col class="mondrian-col mondrian-col--01">
+              <col class="mondrian-col mondrian-col--02">
+              <col class="mondrian-col mondrian-col--03">
+              <col class="mondrian-col mondrian-col--04">
+              <col class="mondrian-col mondrian-col--05">
+              <col class="mondrian-col mondrian-col--06">
+              <col class="mondrian-col mondrian-col--07">
+              <col class="mondrian-col mondrian-col--08">
+            </colgroup>
+
+            <tbody>
+              <tr class="mondrian-row mondrian-row--01">
+                <td class="mondrian-cell mondrian-white mondrian-edge-top mondrian-edge-left" colspan="2"></td>
+                <td class="mondrian-cell mondrian-white mondrian-edge-top" colspan="3"></td>
+                <td class="mondrian-cell mondrian-yellow mondrian-edge-top" colspan="2"></td>
+                <td class="mondrian-cell mondrian-white mondrian-edge-top mondrian-edge-right" rowspan="5"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--02">
+                <td class="mondrian-cell mondrian-white mondrian-edge-left mondrian-join-bottom"></td>
+                <td class="mondrian-cell mondrian-red mondrian-join-bottom" colspan="4"></td>
+                <td class="mondrian-cell mondrian-yellow mondrian-join-bottom" colspan="2"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--03">
+                <td class="mondrian-cell mondrian-white mondrian-edge-left mondrian-join-top"></td>
+                <td class="mondrian-cell mondrian-red mondrian-join-top" colspan="4" rowspan="2"></td>
+                <td class="mondrian-cell mondrian-yellow mondrian-join-top" colspan="2"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--04">
+                <td class="mondrian-cell mondrian-white mondrian-edge-left" rowspan="2"></td>
+                <td class="mondrian-cell mondrian-white"></td>
+                <td class="mondrian-cell mondrian-white"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--05">
+                <td class="mondrian-cell mondrian-black" colspan="2" rowspan="2"></td>
+                <td class="mondrian-cell mondrian-white mondrian-join-right"></td>
+                <td class="mondrian-cell mondrian-white mondrian-join-left"></td>
+                <td class="mondrian-cell mondrian-white" colspan="2"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--06">
+                <td class="mondrian-cell mondrian-yellow mondrian-edge-left mondrian-edge-bottom" rowspan="3"></td>
+                <td class="mondrian-cell mondrian-white" colspan="2"></td>
+                <td class="mondrian-cell mondrian-blue" colspan="2" rowspan="2"></td>
+                <td class="mondrian-cell mondrian-red mondrian-edge-right mondrian-edge-bottom" rowspan="3"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--07">
+                <td class="mondrian-cell mondrian-white mondrian-edge-bottom" colspan="2" rowspan="2"></td>
+                <td class="mondrian-cell mondrian-black" colspan="2"></td>
+              </tr>
+
+              <tr class="mondrian-row mondrian-row--08">
+                <td class="mondrian-cell mondrian-white mondrian-edge-bottom" colspan="4"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        &copy; All Rights Reserved. Andrii Dolzhenko. 2026
+      </footer>
+    </section>
+  </main>
+</body>
+
+</html>

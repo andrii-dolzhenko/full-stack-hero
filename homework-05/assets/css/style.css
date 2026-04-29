@@ -1,0 +1,705 @@
+/* Загальні налаштування */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  color: #24382d;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(176, 138, 60, 0.16) 0,
+      rgba(176, 138, 60, 0.16) 1px,
+      transparent 1px,
+      transparent 72px
+    ),
+    linear-gradient(
+      45deg,
+      rgba(72, 105, 86, 0.12) 0,
+      rgba(72, 105, 86, 0.12) 1px,
+      transparent 1px,
+      transparent 72px
+    ),
+    linear-gradient(135deg, #edf3ec 0%, #f8f2e5 48%, #dcebe5 100%);
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Спільний контейнер сторінок */
+.page {
+  min-height: 100vh;
+  padding: 48px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (min-height: 816px) {
+  .page {
+    padding-top: calc(50vh - 360px);
+    padding-bottom: calc(50vh - 360px);
+  }
+}
+
+.page-card {
+  width: 1180px;
+  max-width: calc(100% - 40px);
+  min-height: 720px;
+  margin: 0 auto;
+  padding: 32px 48px 28px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid rgba(176, 138, 60, 0.35);
+  border-radius: 32px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 253, 246, 0.94),
+    rgba(247, 241, 225, 0.9)
+  );
+  box-shadow:
+    0 24px 48px rgba(42, 55, 44, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+/* Верхнє меню */
+.top-nav {
+  margin: 0 0 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+
+.top-nav__link {
+  min-width: 170px;
+  padding: 14px 24px;
+  color: #244735;
+  border: 1px solid rgba(176, 138, 60, 0.55);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.68);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    color 0.25s,
+    background-color 0.25s,
+    border-color 0.25s,
+    box-shadow 0.25s,
+    transform 0.25s;
+}
+
+.top-nav__link:hover,
+.top-nav__link:focus {
+  color: #1d3d2d;
+  border-color: #b08a3c;
+  background-color: #fff8e7;
+  box-shadow: 0 10px 20px rgba(83, 70, 39, 0.16);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.top-nav__link:active {
+  transform: translateY(0);
+}
+
+.top-nav__link.is-active {
+  color: #fffdf4;
+  border-color: #b08a3c;
+  background-color: #66866d;
+  box-shadow:
+    0 8px 18px rgba(72, 105, 86, 0.28),
+    inset 0 -3px 0 rgba(176, 138, 60, 0.75);
+}
+
+/* Головна сторінка */
+.home-content {
+  max-width: 820px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+}
+
+.home-title {
+  margin: 0;
+  color: #b08a3c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 58px;
+  line-height: 1.1;
+  font-weight: 700;
+  white-space: nowrap;
+  text-shadow: 0 2px 4px rgba(52, 43, 24, 0.25);
+}
+
+.home-subtitle {
+  margin: 22px 0 42px;
+  color: #415447;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.home-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.home-link {
+  min-height: 108px;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #244735;
+  border: 1px solid rgba(176, 138, 60, 0.55);
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.68);
+  box-shadow:
+    0 12px 24px rgba(42, 55, 44, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition:
+    background-color 0.25s,
+    border-color 0.25s,
+    box-shadow 0.25s,
+    transform 0.25s;
+}
+
+.home-link:hover,
+.home-link:focus {
+  border-color: #b08a3c;
+  background-color: #fffaf0;
+  box-shadow:
+    0 18px 34px rgba(42, 55, 44, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  outline: none;
+  transform: translateY(-4px);
+}
+
+.home-link:active {
+  box-shadow:
+    0 8px 18px rgba(42, 55, 44, 0.16),
+    inset 0 2px 8px rgba(83, 70, 39, 0.12);
+  transform: translateY(-1px);
+}
+
+.home-link__icon {
+  width: 78px;
+  height: 78px;
+  flex: 0 0 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(72, 105, 86, 0.18);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.home-link__icon-image {
+  width: 46px;
+  height: 46px;
+  display: block;
+  object-fit: contain;
+}
+
+.home-link__title {
+  flex: 1 1 auto;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.home-link__arrow {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(176, 138, 60, 0.35);
+  border-radius: 50%;
+  background-color: rgba(255, 253, 246, 0.9);
+}
+
+.home-link__arrow::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: block;
+  border-top: 3px solid #a37a2c;
+  border-right: 3px solid #a37a2c;
+  transform: rotate(45deg);
+  transition:
+    border-color 0.25s,
+    transform 0.25s;
+}
+
+.home-link:hover .home-link__arrow::before,
+.home-link:focus .home-link__arrow::before {
+  border-color: #7b5b1e;
+  transform: translateX(4px) rotate(45deg);
+}
+
+.home-link--green {
+  background-image: linear-gradient(
+    90deg,
+    rgba(235, 246, 234, 0.92),
+    rgba(255, 253, 246, 0.86)
+  );
+}
+
+.home-link--blue {
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 242, 246, 0.92),
+    rgba(255, 253, 246, 0.86)
+  );
+}
+
+.home-link--gold {
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 241, 218, 0.94),
+    rgba(255, 253, 246, 0.86)
+  );
+}
+
+/* Сторінки з таблицями */
+.table-content {
+  flex: 1 1 auto;
+}
+
+.page-title {
+  margin: 0 0 28px;
+  color: #b08a3c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(52, 43, 24, 0.2);
+}
+
+.table-wrap {
+  width: 100%;
+}
+
+.task-table {
+  margin: 0 auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: #24382d;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.task-table caption,
+.table-caption {
+  padding-bottom: 12px;
+  color: #476b52;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  line-height: 1.2;
+  font-style: italic;
+  font-weight: 700;
+  caption-side: top;
+}
+
+.table-caption--inner {
+  padding-bottom: 10px;
+}
+
+.task-table td {
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(72, 105, 86, 0.68);
+  background-color: transparent;
+}
+
+.table-one td,
+.inner-table td {
+  width: 33.33%;
+}
+
+.task-table td.cell-high {
+  height: 200px;
+}
+
+.table-one {
+  width: 75%;
+}
+
+.table-two {
+  width: 90%;
+}
+
+.table-two__col-left {
+  width: 28%;
+}
+
+.table-two__col-middle {
+  width: 12%;
+}
+
+.table-two__col-right {
+  width: 60%;
+}
+
+.inner-table {
+  width: 80%;
+  margin: 22px auto 26px;
+}
+
+.nested-cell {
+  vertical-align: middle;
+}
+
+.cell-title {
+  display: block;
+  font-weight: 400;
+}
+
+.cell-line {
+  display: inline;
+}
+
+.cell-note {
+  display: block;
+  margin-top: 6px;
+  color: #415447;
+}
+
+/* Таблиця Мондріана */
+.mondrian-caption {
+  margin: 0 0 14px;
+  padding-bottom: 0;
+}
+
+.mondrian-table {
+  margin: 0 auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 3.5px solid #050505;
+  background-color: #050505;
+}
+
+.mondrian-table td {
+  padding: 0;
+  border: 7px solid #050505;
+}
+
+.mondrian-table .mondrian-edge-top {
+  border-top-width: 0;
+}
+
+.mondrian-table .mondrian-edge-right {
+  border-right-width: 0;
+}
+
+.mondrian-table .mondrian-edge-bottom {
+  border-bottom-width: 0;
+}
+
+.mondrian-table .mondrian-edge-left {
+  border-left-width: 0;
+}
+
+.mondrian-table .mondrian-join-top {
+  border-top-width: 0;
+}
+
+.mondrian-table .mondrian-join-right {
+  border-right-width: 0;
+}
+
+.mondrian-table .mondrian-join-bottom {
+  border-bottom-width: 0;
+}
+
+.mondrian-table .mondrian-join-left {
+  border-left-width: 0;
+}
+
+.mondrian-col--01 {
+  width: 44px;
+}
+
+.mondrian-col--02 {
+  width: 54px;
+}
+
+.mondrian-col--03 {
+  width: 54px;
+}
+
+.mondrian-col--04 {
+  width: 52px;
+}
+
+.mondrian-col--05 {
+  width: 49px;
+}
+
+.mondrian-col--06 {
+  width: 60px;
+}
+
+.mondrian-col--07 {
+  width: 57px;
+}
+
+.mondrian-col--08 {
+  width: 26px;
+}
+
+.mondrian-row--01 {
+  height: 56px;
+}
+
+.mondrian-row--02 {
+  height: 58px;
+}
+
+.mondrian-row--03 {
+  height: 57px;
+}
+
+.mondrian-row--04 {
+  height: 114px;
+}
+
+.mondrian-row--05 {
+  height: 52px;
+}
+
+.mondrian-row--06 {
+  height: 48px;
+}
+
+.mondrian-row--07 {
+  height: 38px;
+}
+
+.mondrian-row--08 {
+  height: 20px;
+}
+
+.mondrian-white {
+  background-color: #f6f1e6;
+}
+
+.mondrian-red {
+  background-color: #ef2d20;
+}
+
+.mondrian-yellow {
+  background-color: #f3d929;
+}
+
+.mondrian-blue {
+  background-color: #1f2bc4;
+}
+
+.mondrian-black {
+  background-color: #050505;
+}
+
+/* Нижній підпис */
+.page-footer {
+  margin-top: auto;
+  padding-top: 36px;
+  color: #b08a3c;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Адаптація */
+@media (max-width: 900px) {
+  .page-card {
+    padding: 28px 28px 24px;
+  }
+
+  .home-title {
+    font-size: 48px;
+  }
+
+  .home-link__title {
+    font-size: 32px;
+  }
+
+  .page-title {
+    font-size: 38px;
+  }
+
+  .task-table {
+    font-size: 16px;
+  }
+
+  .mondrian-table {
+    border-width: 3px;
+  }
+
+  .mondrian-table td {
+    border-width: 6px;
+  }
+
+  .mondrian-col--01 {
+    width: 38px;
+  }
+
+  .mondrian-col--02 {
+    width: 46px;
+  }
+
+  .mondrian-col--03 {
+    width: 46px;
+  }
+
+  .mondrian-col--04 {
+    width: 44px;
+  }
+
+  .mondrian-col--05 {
+    width: 41px;
+  }
+
+  .mondrian-col--06 {
+    width: 50px;
+  }
+
+  .mondrian-col--07 {
+    width: 47px;
+  }
+
+  .mondrian-col--08 {
+    width: 21px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 24px 14px;
+  }
+
+  .page-card {
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+    padding: 24px 18px;
+    border-radius: 24px;
+  }
+
+  .top-nav {
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+
+  .top-nav__link {
+    min-width: 140px;
+    padding: 12px 16px;
+    font-size: 18px;
+  }
+
+  .home-title {
+    font-size: 36px;
+    white-space: normal;
+  }
+
+  .home-subtitle {
+    margin-bottom: 32px;
+    font-size: 18px;
+  }
+
+  .home-link {
+    min-height: 92px;
+    padding: 16px 18px;
+    gap: 16px;
+  }
+
+  .home-link__icon {
+    width: 64px;
+    height: 64px;
+    flex-basis: 64px;
+  }
+
+  .home-link__icon-image {
+    width: 38px;
+    height: 38px;
+  }
+
+  .home-link__title {
+    font-size: 28px;
+  }
+
+  .home-link__arrow {
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+  }
+
+  .page-title {
+    font-size: 32px;
+  }
+
+  .task-table {
+    font-size: 14px;
+  }
+
+  .mondrian-table {
+    border-width: 2.5px;
+  }
+
+  .mondrian-table td {
+    border-width: 5px;
+  }
+
+  .mondrian-col--01 {
+    width: 30px;
+  }
+
+  .mondrian-col--02 {
+    width: 36px;
+  }
+
+  .mondrian-col--03 {
+    width: 36px;
+  }
+
+  .mondrian-col--04 {
+    width: 34px;
+  }
+
+  .mondrian-col--05 {
+    width: 31px;
+  }
+
+  .mondrian-col--06 {
+    width: 38px;
+  }
+
+  .mondrian-col--07 {
+    width: 36px;
+  }
+
+  .mondrian-col--08 {
+    width: 16px;
+  }
+
+  .page-footer {
+    padding-top: 28px;
+    font-size: 13px;
+  }
+}

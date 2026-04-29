@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблиця 1</title>
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+  <main class="page">
+    <section class="page-card table-card">
+      <!-- Основна навігація -->
+      <nav class="top-nav" aria-label="Основна навігація">
+        <a class="top-nav__link" href="../index.html">Головна</a>
+        <a class="top-nav__link is-active" href="table1.html" aria-current="page">Таблиця 1</a>
+        <a class="top-nav__link" href="table2.html">Таблиця 2</a>
+        <a class="top-nav__link" href="mondrian.html">Мондріан</a>
+      </nav>
+
+      <div class="table-content">
+        <h1 class="page-title">Таблиця 1</h1>
+
+        <div class="table-wrap">
+          <table class="task-table table-one">
+            <caption class="table-caption">Перша таблиця</caption>
+
+            <tbody>
+              <tr>
+                <td rowspan="3">
+                  <span class="cell-title">1-4-7</span>
+                  <span class="cell-note">Ширина 33.33%</span>
+                </td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+
+              <tr>
+                <td class="cell-high" colspan="2">
+                  <span class="cell-title">5-6</span>
+                  <span class="cell-note">Висота 200px</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>8</td>
+                <td>9</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        &copy; All Rights Reserved. Andrii Dolzhenko. 2026
+      </footer>
+    </section>
+  </main>
+</body>
+
+</html>
