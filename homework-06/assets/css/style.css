@@ -392,7 +392,7 @@ body {
   margin: 0 auto;
   table-layout: fixed;
   border-collapse: collapse;
-  border: 3.5px solid #050505;
+  border: 3px solid #050505;
   background-color: #050505;
 }
 
@@ -414,22 +414,6 @@ body {
 }
 
 .mondrian-table .mondrian-edge-left {
-  border-left-width: 0;
-}
-
-.mondrian-table .mondrian-join-top {
-  border-top-width: 0;
-}
-
-.mondrian-table .mondrian-join-right {
-  border-right-width: 0;
-}
-
-.mondrian-table .mondrian-join-bottom {
-  border-bottom-width: 0;
-}
-
-.mondrian-table .mondrian-join-left {
   border-left-width: 0;
 }
 
@@ -470,30 +454,26 @@ body {
 }
 
 .mondrian-row--02 {
-  height: 58px;
+  height: 115px;
 }
 
 .mondrian-row--03 {
-  height: 57px;
-}
-
-.mondrian-row--04 {
   height: 114px;
 }
 
-.mondrian-row--05 {
+.mondrian-row--04 {
   height: 52px;
 }
 
-.mondrian-row--06 {
+.mondrian-row--05 {
   height: 48px;
 }
 
-.mondrian-row--07 {
+.mondrian-row--06 {
   height: 38px;
 }
 
-.mondrian-row--08 {
+.mondrian-row--07 {
   height: 20px;
 }
 
@@ -659,11 +639,11 @@ body {
   }
 
   .mondrian-table {
-    border-width: 2.5px;
+    border-width: 2px;
   }
 
   .mondrian-table td {
-    border-width: 5px;
+    border-width: 4px;
   }
 
   .mondrian-col--01 {
