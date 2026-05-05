@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Normalize | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="../index.html">Головна</a></li>
+          <li><a class="nav-link" href="blocks-inline.html">Блокові та інлайнові</a></li>
+          <li><a class="nav-link is-active" href="normalize.html" aria-current="page">Normalize</a></li>
+          <li><a class="nav-link" href="reset.html">Reset</a></li>
+          <li><a class="nav-link" href="display-box.html">Display і box-sizing</a></li>
+          <li><a class="nav-link" href="float-clear.html">Float і clear</a></li>
+          <li><a class="nav-link" href="overflow.html">Overflow</a></li>
+          <li><a class="nav-link" href="positioning.html">Position</a></li>
+          <li><a class="nav-link" href="practice.html">Практика</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Експеримент 2</p>
+        <h1>normalize.css</h1>
+        <p>
+          Порівнюємо стандартні стилі браузера з більш передбачуваною базою
+          після підключення <code>normalize.css</code>.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Що показує експеримент</h2>
+          <p>
+            <code>normalize.css</code> не видаляє всі стилі браузера повністю.
+            Він зберігає корисне базове оформлення, але робить його більш
+            однаковим і передбачуваним у різних браузерах.
+          </p>
+
+          <div class="normalize-visual-grid">
+            <section class="normalize-column">
+              <h3>До підключення</h3>
+
+              <div class="normalize-preview normalize-preview-native">
+                <h1>Заголовок h1</h1>
+                <h2>Заголовок h2</h2>
+                <p>
+                  Це звичайний абзац. Браузер сам додає стандартні відступи,
+                  розміри шрифту та інтервали.
+                </p>
+                <ul>
+                  <li>список має маркери;</li>
+                  <li>є стандартні відступи;</li>
+                  <li>оформлення може трохи відрізнятися.</li>
+                </ul>
+                <button type="button">Кнопка</button>
+                <input type="text" value="Поле вводу">
+              </div>
+
+              <p class="note">
+                Без нормалізації браузери можуть показувати однакові елементи
+                трохи по-різному.
+              </p>
+            </section>
+
+            <section class="normalize-column">
+              <h3>Після підключення normalize.css</h3>
+
+              <div class="normalize-preview normalize-preview-stable">
+                <h1>Заголовок h1</h1>
+                <h2>Заголовок h2</h2>
+                <p>
+                  Базове оформлення зберігається, але стає більш стабільним
+                  для подальшої верстки.
+                </p>
+                <ul>
+                  <li>список залишається списком;</li>
+                  <li>корисні стандартні стилі не зникають;</li>
+                  <li>елементи легше стилізувати далі.</li>
+                </ul>
+                <button type="button">Кнопка</button>
+                <input type="text" value="Поле вводу">
+              </div>
+
+              <p class="note">
+                Normalize створює передбачувану базу, поверх якої зручно
+                будувати власний дизайн.
+              </p>
+            </section>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h2>Мій висновок</h2>
+          <p>
+            Normalize.css потрібен не для того, щоб зробити сайт красивим, а
+            для того, щоб елементи HTML мали більш стабільну базову поведінку.
+            Після цього власні стилі легше писати та перевіряти.
+          </p>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="blocks-inline.html">← Попередня сторінка</a>
+          <a class="page-nav-link" href="reset.html">Наступна сторінка →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

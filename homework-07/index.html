@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДЗ 7.1. Експерименти з блоковою моделлю</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link is-active" href="index.html" aria-current="page">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/blocks-inline.html">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/reset.html">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/float-clear.html">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/overflow.html">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/positioning.html">Position</a>
+          </li>
+          <li>
+            <a class="nav-link" href="pages/practice.html">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Домашнє завдання 7.1</p>
+        <h1>Експерименти з блоковою моделлю</h1>
+        <p class="hero-text">
+          Мініпроєкт демонструє роботу з блоковими та інлайновими елементами,
+          нормалізацією і скиданням стилів, властивостями display, box-sizing,
+          float, clear, overflow, різними типами позиціонування та практичним
+          конструктором із блоків.
+        </p>
+        <a class="hero-link" href="#structure">Переглянути структуру</a>
+      </div>
+    </section>
+
+    <section class="section" id="structure">
+      <div class="container">
+        <h2>Структура проєкту</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Блокові та інлайнові</h3>
+            <p>
+              Приклади використання тегів <code>&lt;div&gt;</code> та
+              <code>&lt;span&gt;</code>, а також порівняння поведінки різних
+              елементів у потоці документа.
+            </p>
+            <a class="card-link" href="pages/blocks-inline.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Normalize</h3>
+            <p>
+              Сторінка демонструє м’яке вирівнювання стандартних стилів браузера
+              за допомогою файлу <code>normalize.css</code>.
+            </p>
+            <a class="card-link" href="pages/normalize.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Reset</h3>
+            <p>
+              Сторінка показує повне скидання стандартного оформлення браузера
+              за допомогою файлу <code>reset.css</code>.
+            </p>
+            <a class="card-link" href="pages/reset.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Display і box-sizing</h3>
+            <p>
+              Експерименти з <code>display: block</code>,
+              <code>display: inline</code>, <code>display: inline-block</code>,
+              <code>display: flex</code> і розрахунком розмірів блоків.
+            </p>
+            <a class="card-link" href="pages/display-box.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Float і clear</h3>
+            <p>
+              Практика з обтіканням елементів за допомогою властивості
+              <code>float</code> та очищенням потоку через <code>clear</code>.
+            </p>
+            <a class="card-link" href="pages/float-clear.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Overflow</h3>
+            <p>
+              Приклади керування вмістом, який виходить за межі контейнера,
+              за допомогою властивості <code>overflow</code>.
+            </p>
+            <a class="card-link" href="pages/overflow.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Position</h3>
+            <p>
+              Порівняння <code>static</code>, <code>relative</code>,
+              <code>absolute</code>, <code>fixed</code> і <code>sticky</code>
+              на окремих елементах.
+            </p>
+            <a class="card-link" href="pages/positioning.html">Відкрити сторінку</a>
+          </article>
+
+          <article class="card">
+            <h3>Практика</h3>
+            <p>
+              Додаткова сторінка з конструктором із блоків, який допомагає
+              закріпити роботу з розмірами, кольорами, рамками та позиціонуванням.
+            </p>
+            <a class="card-link" href="pages/practice.html">Відкрити сторінку</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <h2>Мета роботи</h2>
+        <p class="lead">
+          Головна мета цього завдання — не просто оформити сторінки, а наочно
+          показати, як CSS-властивості впливають на розміри, розташування та
+          поведінку HTML-елементів. Кожна сторінка демонструє окремий принцип
+          роботи блокової моделі або пов’язаної з нею властивості.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

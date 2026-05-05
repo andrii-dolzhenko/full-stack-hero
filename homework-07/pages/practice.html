@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Практика | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link" href="blocks-inline.html">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link" href="reset.html">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="float-clear.html">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link" href="overflow.html">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link" href="positioning.html">Position</a>
+          </li>
+          <li>
+            <a class="nav-link is-active" href="practice.html" aria-current="page">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Додаткова практика</p>
+        <h1>Конструктор із блоків</h1>
+        <p>
+          На цій сторінці зібрано просту композицію з блоків. Вона допомагає
+          закріпити роботу з розмірами, кольорами, рамками та позиціонуванням
+          елементів.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Практичне завдання</h2>
+          <p>
+            У цьому прикладі кілька блоків розміщені всередині одного
+            батьківського контейнера. Для побудови використано
+            <code>position: relative</code> у контейнера та
+            <code>position: absolute</code> у внутрішніх блоків.
+          </p>
+
+          <div class="practice-stage">
+            <div class="constructor" aria-label="Конструктор із кольорових блоків">
+              <div class="constructor-left">
+                <div class="constructor-cell constructor-green"></div>
+                <div class="constructor-cell constructor-white"></div>
+                <div class="constructor-cell constructor-black"></div>
+                <div class="constructor-cell constructor-brown"></div>
+              </div>
+
+              <div class="constructor-gray">
+                <div class="constructor-red"></div>
+              </div>
+
+              <div class="constructor-blue constructor-blue-left"></div>
+              <div class="constructor-blue constructor-blue-center"></div>
+              <div class="constructor-blue constructor-blue-right"></div>
+            </div>
+          </div>
+
+          <p class="note">
+            Батьківський блок створює робочу область, а дочірні блоки отримують
+            точні розміри, кольори та позиції. Так можна зібрати простий
+            “конструктор” і побачити, як елементи накладаються або стають поруч.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>Які властивості використано</h2>
+          <p>
+            Для створення композиції використано властивості
+            <code>width</code>, <code>height</code>, <code>background</code>,
+            <code>border</code>, <code>position</code>, <code>top</code>,
+            <code>left</code>, <code>z-index</code> і <code>display</code>.
+          </p>
+
+          <pre class="code-block"><code>.constructor {
+  position: relative;
+  width: 920px;
+  height: 440px;
+}
+
+.constructor-left {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 270px;
+  height: 270px;
+  border: 3px solid #16213e;
+}
+
+.constructor-gray {
+  position: absolute;
+  top: 40px;
+  left: 345px;
+  width: 540px;
+  height: 270px;
+}
+
+.constructor-red {
+  top: 28px;
+  left: 27px;
+  width: 480px;
+  height: 205px;
+}
+
+.constructor-blue {
+  top: 230px;
+  width: 181px;
+  height: 180px;
+}</code></pre>
+        </article>
+
+        <article class="content-card">
+          <h2>Мій висновок</h2>
+          <p>
+            Ця практика показує, що блокову модель можна використовувати не
+            тільки для звичайного розміщення тексту, а й для побудови
+            візуальних композицій. Кожен блок має власні розміри, фон, рамку і
+            координати, а результат залежить від того, як ці значення
+            поєднуються між собою.
+          </p>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="positioning.html">← Попередня сторінка</a>
+          <a class="page-nav-link" href="../index.html">На головну →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

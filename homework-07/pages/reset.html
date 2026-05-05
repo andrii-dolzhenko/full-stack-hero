@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset.css | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link" href="blocks-inline.html">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link is-active" href="reset.html" aria-current="page">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="float-clear.html">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link" href="overflow.html">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link" href="positioning.html">Position</a>
+          </li>
+          <li>
+            <a class="nav-link" href="practice.html">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Експеримент 3</p>
+        <h1>Підключення reset.css</h1>
+        <p>
+          На цій сторінці підключено файл <code>reset.css</code>. Він прибирає
+          багато стандартних стилів браузера, щоб розробник міг будувати
+          оформлення майже з чистої основи.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Що робить reset.css</h2>
+          <p>
+            <code>reset.css</code> скидає стандартні відступи, рамки, розміри
+            шрифтів та інші базові стилі, які браузер застосовує до
+            HTML-елементів за замовчуванням. Після такого скидання сторінку
+            потрібно оформлювати власними CSS-правилами.
+          </p>
+
+          <p class="note">
+            Якщо <code>normalize.css</code> працює м’яко і зберігає корисні
+            стандартні стилі, то <code>reset.css</code> діє жорсткіше:
+            він прибирає багато браузерного оформлення, щоб усі елементи
+            починалися з майже однакової бази.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>Порівняння підходів</h2>
+          <p>
+            Нижче показано навчальне порівняння: як список виглядає зі
+            стандартними браузерними стилями та що відбувається після
+            підключення <code>reset.css</code>.
+          </p>
+
+          <div class="compare-grid">
+            <div class="comparison-column">
+              <h3>До підключення</h3>
+
+              <div class="demo-area reset-demo browser-preview">
+                <h4>Стандартний список браузера</h4>
+                <p>
+                  У звичайному браузерному стилі список має маркери та
+                  відступ зліва.
+                </p>
+
+                <ul>
+                  <li>перший пункт списку;</li>
+                  <li>другий пункт списку;</li>
+                  <li>третій пункт списку.</li>
+                </ul>
+              </div>
+
+              <p class="note">
+                Тут добре видно стандартні маркери та типовий відступ списку.
+              </p>
+            </div>
+
+            <div class="comparison-column">
+              <h3>Після підключення reset.css</h3>
+
+              <div class="demo-area reset-demo">
+                <h4>Скинутий список</h4>
+                <p>
+                  Після <code>reset.css</code> той самий список втрачає маркери
+                  та стандартний відступ, тому виглядає значно простіше.
+                </p>
+
+                <ul class="reset-plain-list">
+                  <li>перший пункт списку;</li>
+                  <li>другий пункт списку;</li>
+                  <li>третій пункт списку.</li>
+                </ul>
+              </div>
+
+              <p class="note">
+                Після reset список потрібно оформлювати вручну, якщо потрібні
+                маркери, відступи або інший стиль.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h2>Як файл підключено на цій сторінці</h2>
+          <p>
+            Файл <code>reset.css</code> підключений перед основним
+            <code>style.css</code>. Завдяки цьому спочатку скидаються
+            стандартні стилі браузера, а потім застосовується власне оформлення
+            проєкту.
+          </p>
+
+          <pre class="code-block"><code>&lt;link rel="stylesheet" type="text/css" href="../assets/css/reset.css"&gt;
+&lt;link rel="stylesheet" type="text/css" href="../assets/css/style.css"&gt;</code></pre>
+        </article>
+
+        <article class="content-card">
+          <h2>Мій висновок</h2>
+          <p>
+            Після підключення <code>reset.css</code> сторінка втрачає багато
+            стандартного браузерного оформлення. Це корисно, коли потрібно
+            повністю контролювати вигляд елементів і не залежати від стилів
+            браузера. Але такий підхід потребує більше власного CSS, тому що
+            частину базового оформлення доводиться створювати вручну.
+          </p>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="normalize.html">← Попередня сторінка</a>
+          <a class="page-nav-link" href="display-box.html">Наступна сторінка →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

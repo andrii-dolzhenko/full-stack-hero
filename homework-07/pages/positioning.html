@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link" href="blocks-inline.html">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link" href="reset.html">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="float-clear.html">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link" href="overflow.html">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link is-active" href="positioning.html" aria-current="page">Position</a>
+          </li>
+          <li>
+            <a class="nav-link" href="practice.html">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Експеримент 7</p>
+        <h1>Позиціонування елементів</h1>
+        <p>
+          На цій сторінці показано різні значення властивості
+          <code>position</code>: static, relative, absolute, fixed і sticky.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Що робить position</h2>
+          <p>
+            Властивість <code>position</code> визначає, як елемент
+            розташовується на сторінці та чи можна зміщувати його за допомогою
+            властивостей <code>top</code>, <code>right</code>,
+            <code>bottom</code> і <code>left</code>.
+          </p>
+
+          <p class="note">
+            За замовчуванням елементи мають <code>position: static</code>.
+            Інші значення дозволяють зміщувати елемент або прив’язувати його до
+            батьківського контейнера, вікна браузера чи моменту прокрутки.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>static і relative</h2>
+          <p>
+            <code>static</code> — стандартне положення елемента в потоці
+            документа. <code>relative</code> залишає місце елемента в потоці,
+            але дозволяє візуально змістити його.
+          </p>
+
+          <div class="compare-grid">
+            <div class="comparison-column">
+              <h3>position: static</h3>
+
+              <div class="demo-area position-demo">
+                <div class="position-box">Перший блок</div>
+                <div class="position-box position-static">static</div>
+                <div class="position-box">Третій блок</div>
+              </div>
+
+              <p class="note">
+                Static-елемент розташовується звичайно і не реагує на
+                <code>top</code> або <code>left</code>.
+              </p>
+            </div>
+
+            <div class="comparison-column">
+              <h3>position: relative</h3>
+
+              <div class="demo-area position-demo">
+                <div class="position-box">Перший блок</div>
+                <div class="position-box position-relative">relative</div>
+                <div class="position-box">Третій блок</div>
+              </div>
+
+              <p class="note">
+                Relative-елемент зміщується візуально, але його початкове місце
+                в потоці документа зберігається.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h2>absolute</h2>
+          <p>
+            <code>position: absolute</code> виймає елемент зі звичайного потоку
+            документа. Якщо батьківський блок має позиціонування, absolute
+            орієнтується саме на нього.
+          </p>
+
+          <div class="demo-area absolute-stage">
+            <div class="absolute-base">Візуальна область контейнера</div>
+            <div class="absolute-box">absolute</div>
+          </div>
+
+          <p class="note">
+            Помаранчевий блок розташований відносно пунктирної області, тому що
+            саме вона має <code>position: relative</code>. Синій блок у цьому
+            прикладі лише візуально показує межі батьківського контейнера.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>fixed і sticky</h2>
+          <p>
+            <code>fixed</code> прив’язує елемент до вікна браузера, а
+            <code>sticky</code> поводиться як звичайний елемент, доки під час
+            прокрутки не досягне заданої позиції.
+          </p>
+
+          <div class="compare-grid">
+            <div class="comparison-column">
+              <h3>position: fixed</h3>
+
+              <div class="demo-area position-window">
+                <div class="fixed-demo">fixed</div>
+                <p>
+                  Fixed-елемент прив’язується до вікна браузера. У реальному
+                  інтерфейсі так часто роблять кнопки допомоги, чати або
+                  плаваючі панелі.
+                </p>
+              </div>
+
+              <p class="note">
+                На цій сторінці fixed-блок показаний як безпечна демонстрація
+                всередині макета, щоб він не перекривав меню, текст і кнопки.
+              </p>
+            </div>
+
+            <div class="comparison-column">
+              <h3>position: sticky</h3>
+
+              <div class="demo-area sticky-demo-wrap">
+                <div class="sticky-demo">sticky</div>
+                <p>
+                  Sticky-елемент спочатку знаходиться у звичайному потоці, але
+                  під час прокрутки може “прилипати” до заданої позиції.
+                </p>
+                <p>
+                  Це зручно для заголовків секцій, бокових меню або підказок,
+                  які мають залишатися видимими певний час.
+                </p>
+              </div>
+
+              <p class="note">
+                Sticky відрізняється від fixed тим, що не завжди прикріплений
+                до екрана, а активується тільки під час прокрутки.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h2>Приклад CSS-коду</h2>
+          <p>
+            Нижче показано кілька базових прикладів позиціонування елементів.
+          </p>
+
+          <pre class="code-block"><code>.relative-box {
+  position: relative;
+  top: 16px;
+  left: 20px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 20px;
+}</code></pre>
+        </article>
+
+        <article class="content-card">
+          <h2>Мій висновок</h2>
+          <p>
+            Властивість <code>position</code> допомагає керувати розташуванням
+            елементів. <code>static</code> залишає елемент у звичайному потоці,
+            <code>relative</code> дозволяє змістити його без втрати місця,
+            <code>absolute</code> розташовує елемент відносно позиціонованого
+            контейнера, <code>fixed</code> прив’язує його до вікна браузера, а
+            <code>sticky</code> поєднує звичайну поведінку з “прилипанням” під
+            час прокрутки.
+          </p>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="overflow.html">← Попередня сторінка</a>
+          <a class="page-nav-link" href="practice.html">Наступна сторінка →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

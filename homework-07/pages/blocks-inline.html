@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блокові та інлайнові елементи | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link is-active" href="blocks-inline.html" aria-current="page">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link" href="reset.html">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="float-clear.html">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link" href="overflow.html">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link" href="positioning.html">Position</a>
+          </li>
+          <li>
+            <a class="nav-link" href="practice.html">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Експеримент 1</p>
+        <h1>Блокові та інлайнові елементи</h1>
+        <p>
+          На цій сторінці показано різницю між блоковими та інлайновими
+          елементами, а також приклади використання тегів
+          <code>&lt;div&gt;</code> і <code>&lt;span&gt;</code>.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Що таке блоковий елемент</h2>
+          <p>
+            Блоковий елемент зазвичай починається з нового рядка і займає всю
+            доступну ширину батьківського контейнера. Тег
+            <code>&lt;div&gt;</code> часто використовують як універсальний
+            контейнер для групування інших елементів.
+          </p>
+
+          <div class="demo-area">
+            <p class="demo-title">Приклад блокових елементів:</p>
+
+            <div class="block-stack">
+              <div class="sample-block">Перший блоковий елемент</div>
+              <div class="sample-block">Другий блоковий елемент</div>
+              <div class="sample-block">Третій блоковий елемент</div>
+            </div>
+          </div>
+
+          <p class="note">
+            Кожен блок розміщується з нового рядка, навіть якщо його текст
+            короткий. Саме тому такі елементи зручно використовувати для
+            побудови основних частин сторінки.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>Що таке інлайновий елемент</h2>
+          <p>
+            Інлайновий елемент не починається з нового рядка. Він займає лише
+            стільки місця, скільки потрібно його вмісту. Тег
+            <code>&lt;span&gt;</code> використовують для стилізації невеликої
+            частини тексту всередині рядка.
+          </p>
+
+          <div class="demo-area">
+            <p class="demo-title">Приклад інлайнових елементів:</p>
+
+            <p class="inline-sentence">
+              Це звичайний текст, у якому
+              <span class="inline-highlight">фрагмент тексту виділено через span,</span>
+              потім іде продовження речення, а далі
+              <span class="inline-highlight">ще один інлайновий фрагмент.</span>
+            </p>
+          </div>
+
+          <p class="note">
+            Елементи <code>&lt;span&gt;</code> залишаються всередині рядка і не
+            порушують потік тексту. Вони корисні, коли потрібно виділити слово,
+            фразу або невелику частину контенту.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>Порівняння поведінки</h2>
+          <p>
+            Нижче показано, як по-різному поводяться блокові та інлайнові
+            елементи всередині одного контейнера.
+          </p>
+
+          <div class="compare-grid">
+            <div class="comparison-column">
+              <h3>Блокові елементи</h3>
+
+              <div class="demo-area">
+                <div class="sample-block">Block 1</div>
+                <div class="sample-block">Block 2</div>
+                <div class="sample-block">Block 3</div>
+              </div>
+
+              <p class="note">
+                Блоки займають доступну ширину і стають один під одним.
+              </p>
+            </div>
+
+            <div class="comparison-column">
+              <h3>Інлайнові елементи</h3>
+
+              <div class="demo-area">
+                <span class="inline-pill">Inline 1</span>
+                <span class="inline-pill">Inline 2</span>
+                <span class="inline-pill">Inline 3</span>
+              </div>
+
+              <p class="note">
+                Інлайнові елементи залишаються в одному рядку, доки вистачає
+                місця.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h2>Приклад HTML-коду</h2>
+          <p>
+            У цьому прикладі <code>&lt;div&gt;</code> створює окремий блок, а
+            <code>&lt;span&gt;</code> виділяє частину тексту всередині абзацу.
+          </p>
+
+          <pre class="code-block"><code>&lt;div class="example-box"&gt;
+  Це блоковий контейнер.
+&lt;/div&gt;
+
+&lt;p&gt;
+  Це речення містить &lt;span&gt;інлайновий фрагмент&lt;/span&gt; тексту.
+&lt;/p&gt;</code></pre>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="../index.html">← На головну</a>
+          <a class="page-nav-link" href="normalize.html">Наступна сторінка →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link" href="blocks-inline.html">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link" href="reset.html">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="float-clear.html">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link is-active" href="overflow.html" aria-current="page">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link" href="positioning.html">Position</a>
+          </li>
+          <li>
+            <a class="nav-link" href="practice.html">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Експеримент 6</p>
+        <h1>Властивість overflow</h1>
+        <p>
+          Перевіряємо, як поводиться вміст, якщо він не поміщається всередині
+          контейнера з обмеженою шириною та висотою.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Що робить overflow</h2>
+          <p>
+            Властивість <code>overflow</code> керує відображенням контенту,
+            який виходить за межі блочного елемента. Для експерименту всі
+            контейнери нижче мають однакову висоту, але різні значення
+            <code>overflow</code>.
+          </p>
+
+          <div class="overflow-grid">
+            <section class="overflow-card">
+              <h3>overflow: visible</h3>
+
+              <div class="demo-area overflow-demo-area overflow-visible">
+                <p>
+                  Це контейнер з обмеженими розмірами. Тексту тут більше, ніж
+                  може поміститися всередині блоку. При значенні visible
+                  контент не приховується і продовжує відображатися за межами
+                  рамки. Саме тому текст може візуально виходити за межі
+                  контейнера.
+                </p>
+              </div>
+
+              <p class="note">
+                Контент не обрізається і може виходити за межі контейнера.
+              </p>
+            </section>
+
+            <section class="overflow-card">
+              <h3>overflow: hidden</h3>
+
+              <div class="demo-area overflow-demo-area overflow-hidden">
+                <p>
+                  Це контейнер з обмеженими розмірами. Тексту тут більше, ніж
+                  може поміститися всередині блоку. При значенні hidden зайвий
+                  контент приховується. Користувач не бачить частину тексту і
+                  не може прокрутити блок. Частина інформації просто
+                  обрізається.
+                </p>
+              </div>
+
+              <p class="note">
+                Усе, що не помістилося, обрізається і не показується.
+              </p>
+            </section>
+
+            <section class="overflow-card">
+              <h3>overflow: scroll</h3>
+
+              <div class="demo-area overflow-demo-area overflow-scroll">
+                <p>
+                  Це контейнер з обмеженими розмірами. Тексту тут більше, ніж
+                  може поміститися всередині блоку. При значенні scroll браузер
+                  додає прокрутку, щоб можна було переглянути весь вміст
+                  усередині контейнера. Смуги прокрутки додаються завжди.
+                </p>
+              </div>
+
+              <p class="note">
+                Смуги прокрутки додаються завжди, навіть якщо вони не потрібні.
+              </p>
+            </section>
+
+            <section class="overflow-card">
+              <h3>overflow: auto</h3>
+
+              <div class="demo-area overflow-demo-area overflow-auto">
+                <p>
+                  Це контейнер з обмеженими розмірами. При auto браузер сам перевіряє, чи потрібна прокрутка.
+                  Якщо контент не вміщується, прокрутка зʼявляється автоматично.
+                </p>
+              </div>
+
+              <p class="note">
+                Прокрутка зʼявляється тільки тоді, коли контент не поміщається.
+              </p>
+            </section>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h2>Мій висновок</h2>
+          <p>
+            Властивість <code>overflow</code> допомагає контролювати ситуації,
+            коли вміст не поміщається в обмежений контейнер. Значення
+            <code>visible</code> показує контент за межами блоку,
+            <code>hidden</code> обрізає зайве, <code>scroll</code> завжди додає
+            прокрутку, а <code>auto</code> додає її тільки за потреби.
+          </p>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="float-clear.html">← Попередня сторінка</a>
+          <a class="page-nav-link" href="positioning.html">Наступна сторінка →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>

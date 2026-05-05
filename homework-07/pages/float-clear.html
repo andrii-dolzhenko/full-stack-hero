@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float і clear | ДЗ 7.1</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a class="nav-link" href="blocks-inline.html">Блокові та інлайнові</a>
+          </li>
+          <li>
+            <a class="nav-link" href="normalize.html">Normalize</a>
+          </li>
+          <li>
+            <a class="nav-link" href="reset.html">Reset</a>
+          </li>
+          <li>
+            <a class="nav-link" href="display-box.html">Display і box-sizing</a>
+          </li>
+          <li>
+            <a class="nav-link is-active" href="float-clear.html" aria-current="page">Float і clear</a>
+          </li>
+          <li>
+            <a class="nav-link" href="overflow.html">Overflow</a>
+          </li>
+          <li>
+            <a class="nav-link" href="positioning.html">Position</a>
+          </li>
+          <li>
+            <a class="nav-link" href="practice.html">Практика</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Експеримент 5</p>
+        <h1>Float і clear</h1>
+        <p>
+          На цій сторінці показано, як властивість <code>float</code> створює
+          обтікання елементів, а властивість <code>clear</code> допомагає
+          зупинити це обтікання у потрібному місці.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-layout">
+      <div class="container">
+        <article class="content-card">
+          <h2>Що робить float</h2>
+          <p>
+            Властивість <code>float</code> дозволяє змістити елемент ліворуч
+            або праворуч, а інший контент буде обтікати його з вільного боку.
+            Раніше цей прийом часто використовували для створення колонок і
+            розташування зображень у тексті.
+          </p>
+
+          <p class="note">
+            Сьогодні для основних макетів частіше використовують
+            <code>flex</code>, але розуміння <code>float</code> важливе,
+            бо воно пояснює поведінку старих макетів і принцип обтікання.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>float: left</h2>
+          <p>
+            У цьому прикладі блок зміщується вліво, а текст обтікає його
+            справа.
+          </p>
+
+          <div class="demo-area float-demo">
+            <div class="float-box float-left">float: left</div>
+            <p>
+              Цей текст обтікає блок з правого боку. Плаваючий елемент
+              залишається в межах потоку сторінки особливим способом: він
+              зміщується вліво, а текст продовжує займати доступний простір
+              поруч із ним.
+            </p>
+            <p>
+              Такий прийом часто використовували для розміщення зображень у
+              статтях, коли потрібно було, щоб текст красиво обходив картинку.
+            </p>
+          </div>
+
+          <p class="note">
+            При <code>float: left</code> елемент притискається до лівого краю,
+            а наступний текст обтікає його справа.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>float: right</h2>
+          <p>
+            У цьому прикладі блок зміщується вправо, а текст обтікає його
+            зліва.
+          </p>
+
+          <div class="demo-area float-demo">
+            <div class="float-box float-right">float: right</div>
+            <p>
+              Цей текст обтікає блок з лівого боку. Плаваючий елемент зайняв
+              праву частину контейнера, тому текст автоматично розташовується
+              в доступному просторі зліва.
+            </p>
+            <p>
+              Якщо тексту багато, він продовжить обтікати елемент доти, доки
+              не закінчиться висота плаваючого блоку.
+            </p>
+          </div>
+
+          <p class="note">
+            При <code>float: right</code> елемент притискається до правого
+            краю, а текст обтікає його зліва.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>Проблема без clear</h2>
+          <p>
+            Якщо після плаваючих елементів додати звичайний блок, він може
+            піднятися поруч із ними, бо браузер продовжує враховувати обтікання.
+          </p>
+
+          <div class="demo-area float-problem-demo">
+            <div class="floating-card">Плаваючий блок 1</div>
+            <div class="floating-card">Плаваючий блок 2</div>
+            <div class="float-title without-clear">
+              Заголовок без clear може опинитися поруч із float-блоками
+            </div>
+          </div>
+
+          <p class="note">
+            Без <code>clear</code> наступний елемент може поводитися не так,
+            як очікується: він не завжди починається під плаваючими блоками.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>clear: both</h2>
+          <p>
+            Властивість <code>clear</code> забороняє обтікання з певного боку.
+            Значення <code>clear: both</code> означає, що елемент має
+            розміститися нижче всіх попередніх плаваючих елементів.
+          </p>
+
+          <div class="demo-area float-problem-demo">
+            <div class="floating-card">Плаваючий блок 1</div>
+            <div class="floating-card">Плаваючий блок 2</div>
+            <div class="float-title with-clear">
+              Заголовок з clear: both стає нижче float-блоків
+            </div>
+          </div>
+
+          <p class="note">
+            <code>clear: both</code> допомагає повернути нормальний потік
+            документа після елементів із <code>float</code>.
+          </p>
+        </article>
+
+        <article class="content-card">
+          <h2>Приклад CSS-коду</h2>
+          <p>
+            Нижче показано спрощений приклад: два блоки отримують
+            <code>float: left</code>, а наступний заголовок очищує обтікання
+            через <code>clear: both</code>.
+          </p>
+
+          <pre class="code-block"><code>.floating-card {
+  float: left;
+  width: 180px;
+  height: 120px;
+}
+
+.title {
+  clear: both;
+}</code></pre>
+        </article>
+
+        <article class="content-card">
+          <h2>Мій висновок</h2>
+          <p>
+            Властивість <code>float</code> дозволяє створювати обтікання
+            елементів текстом або іншими блоками. Але після використання
+            <code>float</code> потрібно уважно контролювати подальший потік
+            сторінки. Для цього використовується <code>clear</code>, який
+            дозволяє зупинити обтікання і розмістити наступний елемент нижче
+            плаваючих блоків.
+          </p>
+        </article>
+
+        <nav class="page-nav" aria-label="Навігація між сторінками">
+          <a class="page-nav-link" href="display-box.html">← Попередня сторінка</a>
+          <a class="page-nav-link" href="overflow.html">Наступна сторінка →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; All Rights Reserved. Andrii Dolzhenko. 2026</p>
+    </div>
+  </footer>
+</body>
+
+</html>
