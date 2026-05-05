@@ -498,9 +498,10 @@ code {
   all: revert;
 }
 
-.normalize-preview-stable h1 {
+.normalize-preview-stable .preview-title {
   margin: 0 0 12px;
   font-size: 32px;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -1058,12 +1059,14 @@ code {
   }
 
   .compare-grid,
-  .box-sizing-demo {
+  .box-sizing-demo,
+  .normalize-visual-grid {
     flex-direction: column;
   }
 
   .comparison-column .note,
-  .box-sizing-column .note {
+  .box-sizing-column .note,
+  .normalize-column .note {
     margin-top: 0;
   }
 

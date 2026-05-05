@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Блокові та інлайнові елементи | ДЗ 7.1</title>
+  <title>Блокові та інлайнові | ДЗ 7.1</title>
   <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
@@ -52,38 +52,32 @@
         <p class="eyebrow">Експеримент 1</p>
         <h1>Блокові та інлайнові елементи</h1>
         <p>
-          На цій сторінці показано різницю між блоковими та інлайновими
-          елементами, а також приклади використання тегів
-          <code>&lt;div&gt;</code> і <code>&lt;span&gt;</code>.
+          Порівнюємо поведінку блокових елементів <code>div</code> та
+          інлайнових елементів <code>span</code>.
         </p>
       </div>
     </section>
 
-    <section class="content-layout">
+    <div class="content-layout">
       <div class="container">
         <article class="content-card">
           <h2>Що таке блоковий елемент</h2>
           <p>
-            Блоковий елемент зазвичай починається з нового рядка і займає всю
-            доступну ширину батьківського контейнера. Тег
-            <code>&lt;div&gt;</code> часто використовують як універсальний
-            контейнер для групування інших елементів.
+            Блоковий елемент починається з нового рядка і зазвичай займає всю
+            доступну ширину батьківського контейнера. Тег <code>div</code>
+            часто використовують для створення окремих блоків сторінки.
           </p>
 
-          <div class="demo-area">
+          <div class="demo-area block-stack">
             <p class="demo-title">Приклад блокових елементів:</p>
-
-            <div class="block-stack">
-              <div class="sample-block">Перший блоковий елемент</div>
-              <div class="sample-block">Другий блоковий елемент</div>
-              <div class="sample-block">Третій блоковий елемент</div>
-            </div>
+            <div class="sample-block">Block 1</div>
+            <div class="sample-block">Block 2</div>
+            <div class="sample-block">Block 3</div>
           </div>
 
           <p class="note">
-            Кожен блок розміщується з нового рядка, навіть якщо його текст
-            короткий. Саме тому такі елементи зручно використовувати для
-            побудови основних частин сторінки.
+            Блокові елементи стають один під одним і займають доступну ширину
+            контейнера.
           </p>
         </article>
 
@@ -92,23 +86,22 @@
           <p>
             Інлайновий елемент не починається з нового рядка. Він займає лише
             стільки місця, скільки потрібно його вмісту. Тег
-            <code>&lt;span&gt;</code> використовують для стилізації невеликої
-            частини тексту всередині рядка.
+            <code>span</code> використовують для стилізації невеликої частини
+            тексту всередині рядка.
           </p>
 
           <div class="demo-area">
             <p class="demo-title">Приклад інлайнових елементів:</p>
-
             <p class="inline-sentence">
               Це звичайний текст, у якому
-              <span class="inline-highlight">фрагмент тексту виділено через span,</span>
+              <span class="inline-highlight">фрагмент тексту виділений через span</span>
               потім іде продовження речення, а далі
               <span class="inline-highlight">ще один інлайновий фрагмент.</span>
             </p>
           </div>
 
           <p class="note">
-            Елементи <code>&lt;span&gt;</code> залишаються всередині рядка і не
+            Елементи <code>span</code> залишаються всередині рядка і не
             порушують потік тексту. Вони корисні, коли потрібно виділити слово,
             фразу або невелику частину контенту.
           </p>
@@ -124,13 +117,11 @@
           <div class="compare-grid">
             <div class="comparison-column">
               <h3>Блокові елементи</h3>
-
               <div class="demo-area">
                 <div class="sample-block">Block 1</div>
                 <div class="sample-block">Block 2</div>
                 <div class="sample-block">Block 3</div>
               </div>
-
               <p class="note">
                 Блоки займають доступну ширину і стають один під одним.
               </p>
@@ -138,13 +129,11 @@
 
             <div class="comparison-column">
               <h3>Інлайнові елементи</h3>
-
               <div class="demo-area">
                 <span class="inline-pill">Inline 1</span>
                 <span class="inline-pill">Inline 2</span>
                 <span class="inline-pill">Inline 3</span>
               </div>
-
               <p class="note">
                 Інлайнові елементи залишаються в одному рядку, доки вистачає
                 місця.
@@ -154,27 +143,21 @@
         </article>
 
         <article class="content-card">
-          <h2>Приклад HTML-коду</h2>
+          <h2>Мій висновок</h2>
           <p>
-            У цьому прикладі <code>&lt;div&gt;</code> створює окремий блок, а
-            <code>&lt;span&gt;</code> виділяє частину тексту всередині абзацу.
+            Блокові елементи зручно використовувати для створення великих
+            частин сторінки, а інлайнові — для виділення невеликих фрагментів
+            тексту. Розуміння різниці між ними допомагає правильно будувати
+            структуру HTML-сторінки.
           </p>
-
-          <pre class="code-block"><code>&lt;div class="example-box"&gt;
-  Це блоковий контейнер.
-&lt;/div&gt;
-
-&lt;p&gt;
-  Це речення містить &lt;span&gt;інлайновий фрагмент&lt;/span&gt; тексту.
-&lt;/p&gt;</code></pre>
         </article>
 
         <nav class="page-nav" aria-label="Навігація між сторінками">
-          <a class="page-nav-link" href="../index.html">← На головну</a>
+          <a class="page-nav-link" href="../index.html">← Попередня сторінка</a>
           <a class="page-nav-link" href="normalize.html">Наступна сторінка →</a>
         </nav>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="site-footer">

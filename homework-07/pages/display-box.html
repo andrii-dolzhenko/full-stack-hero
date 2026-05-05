@@ -52,157 +52,99 @@
         <p class="eyebrow">Експеримент 4</p>
         <h1>Display і box-sizing</h1>
         <p>
-          На цій сторінці показано, як властивість <code>display</code> змінює
-          поведінку елементів, а <code>box-sizing</code> впливає на розрахунок
-          їхніх розмірів.
+          Перевіряємо, як властивість <code>display</code> змінює поведінку
+          елементів, а <code>box-sizing</code> впливає на розрахунок розміру блоку.
         </p>
       </div>
     </section>
 
-    <section class="content-layout">
+    <div class="content-layout">
       <div class="container">
         <article class="content-card">
           <h2>Властивість display</h2>
           <p>
-            Властивість <code>display</code> визначає, як елемент
-            відображається на сторінці: як блок, як частина рядка, як
-            інлайновий блок або як flex-контейнер.
+            Властивість <code>display</code> визначає, як елемент поводиться у
+            потоці документа: як блок, інлайновий елемент, інлайн-блок або
+            flex-контейнер.
           </p>
 
-          <p class="note">
-            Змінюючи <code>display</code>, ми можемо керувати тим, чи займає
-            елемент всю доступну ширину, чи стоїть в одному рядку з іншими
-            елементами, а також як розташовуються його дочірні елементи.
-          </p>
-        </article>
-
-        <article class="content-card">
-          <h2>display: block</h2>
-          <p>
-            Значення <code>display: block</code> робить елемент блоковим.
-            Такий елемент починається з нового рядка і займає всю доступну
-            ширину контейнера.
-          </p>
-
+          <h3>display: block</h3>
           <div class="demo-area">
-            <p class="demo-title">Приклад block:</p>
-
-            <div class="display-block-item">Перший block-елемент</div>
-            <div class="display-block-item">Другий block-елемент</div>
-            <div class="display-block-item">Третій block-елемент</div>
+            <div class="display-block-item">Block 1</div>
+            <div class="display-block-item">Block 2</div>
+            <div class="display-block-item">Block 3</div>
           </div>
-
           <p class="note">
-            Усі три елементи стали один під одним, хоча їхній текст короткий.
-          </p>
-        </article>
-
-        <article class="content-card">
-          <h2>display: inline</h2>
-          <p>
-            Значення <code>display: inline</code> розміщує елементи в одному
-            рядку. Такі елементи займають тільки місце свого вмісту.
+            Блокові елементи займають доступну ширину і розміщуються один під
+            одним.
           </p>
 
+          <h3>display: inline</h3>
           <div class="demo-area">
-            <p class="demo-title">Приклад inline:</p>
-
             <span class="display-inline-item">Inline 1</span>
             <span class="display-inline-item">Inline 2</span>
             <span class="display-inline-item">Inline 3</span>
           </div>
-
           <p class="note">
-            Інлайнові елементи не починають новий рядок і розташовуються поруч
-            один з одним, доки вистачає місця.
-          </p>
-        </article>
-
-        <article class="content-card">
-          <h2>display: inline-block</h2>
-          <p>
-            Значення <code>display: inline-block</code> поєднує поведінку
-            інлайнового і блокового елементів. Елементи можуть стояти в одному
-            рядку, але при цьому їм можна задавати ширину, висоту, padding і
-            border.
+            Інлайнові елементи залишаються в одному рядку, доки для них
+            вистачає місця.
           </p>
 
+          <h3>display: inline-block</h3>
           <div class="demo-area">
-            <p class="demo-title">Приклад inline-block:</p>
-
             <span class="display-inline-block-item">Inline-block 1</span>
             <span class="display-inline-block-item">Inline-block 2</span>
             <span class="display-inline-block-item">Inline-block 3</span>
           </div>
-
           <p class="note">
-            Такі елементи зручно використовувати для кнопок, бейджів,
-            навігаційних посилань або невеликих карток.
-          </p>
-        </article>
-
-        <article class="content-card">
-          <h2>display: flex</h2>
-          <p>
-            Значення <code>display: flex</code> перетворює елемент на
-            flex-контейнер. Його дочірні елементи стають flex-елементами і
-            можуть зручно розташовуватися в ряд, переноситися або вирівнюватися.
+            Inline-block поводиться як інлайновий елемент у рядку, але дозволяє
+            задавати ширину, висоту, padding і margin.
           </p>
 
-          <div class="demo-area">
-            <p class="demo-title">Приклад flex:</p>
-
-            <div class="display-flex-demo">
-              <div class="display-flex-item">Flex 1</div>
-              <div class="display-flex-item">Flex 2</div>
-              <div class="display-flex-item">Flex 3</div>
-            </div>
+          <h3>display: flex</h3>
+          <div class="demo-area display-flex-demo">
+            <div class="display-flex-item">Flex 1</div>
+            <div class="display-flex-item">Flex 2</div>
+            <div class="display-flex-item">Flex 3</div>
           </div>
-
           <p class="note">
-            Flex допомагає швидко розташовувати елементи в одному рядку і
-            контролювати відстані між ними.
+            Flex-контейнер допомагає зручно розташовувати елементи в рядку,
+            керувати відступами та вирівнюванням.
           </p>
         </article>
 
         <article class="content-card">
-          <h2>box-sizing</h2>
+          <h2>Властивість box-sizing</h2>
           <p>
             Властивість <code>box-sizing</code> визначає, як браузер рахує
-            ширину і висоту елемента. Стандартне значення
-            <code>content-box</code> рахує тільки контент, а
-            <code>border-box</code> включає в заданий розмір також padding і
-            border.
+            загальний розмір елемента: тільки за контентом або разом із
+            padding та border.
           </p>
 
           <div class="box-sizing-demo">
             <div class="box-sizing-column">
               <h3>content-box</h3>
-
               <div class="box-sizing-example content-box-example">
-                width: 220px<br>
-                padding: 24px<br>
-                border: 6px
+                width: 220px;<br>
+                padding: 24px;<br>
+                border: 6px;
               </div>
-
               <p class="note">
-                При <code>content-box</code> padding і border додаються до
-                заданої ширини. Тому фактичний розмір елемента стає більшим.
+                При <code>box-sizing: content-box</code> задана ширина
+                стосується тільки контенту. Padding і border додаються зверху.
               </p>
             </div>
 
             <div class="box-sizing-column">
               <h3>border-box</h3>
-
               <div class="box-sizing-example border-box-example">
-                width: 220px<br>
-                padding: 24px<br>
-                border: 6px
+                width: 220px;<br>
+                padding: 24px;<br>
+                border: 6px;
               </div>
-
               <p class="note">
-                При <code>border-box</code> padding і border входять у задану
-                ширину. Тому елемент легше контролювати в макеті.
+                При <code>box-sizing: border-box</code> padding і border вже
+                входять у задану ширину елемента.
               </p>
             </div>
           </div>
@@ -211,29 +153,38 @@
         <article class="content-card">
           <h2>Приклад CSS-коду</h2>
           <p>
-            У цьому прикладі видно, як можна змінювати відображення елементів
-            за допомогою <code>display</code> і спосіб розрахунку розміру через
-            <code>box-sizing</code>.
+            Нижче показано кілька базових прикладів використання
+            <code>display</code> та <code>box-sizing</code>.
           </p>
 
-          <pre class="code-block"><code>.element {
+          <pre class="code-block"><code>.display-block-item {
+  display: block;
+}
+
+.display-inline-item {
+  display: inline;
+}
+
+.display-inline-block-item {
   display: inline-block;
+}
+
+.display-flex-demo {
+  display: flex;
+}
+
+.border-box-example {
   box-sizing: border-box;
-  width: 220px;
-  padding: 24px;
-  border: 6px solid #2274a5;
 }</code></pre>
         </article>
 
         <article class="content-card">
           <h2>Мій висновок</h2>
           <p>
-            Властивість <code>display</code> впливає на те, як елемент
-            поводиться в потоці документа: займає весь рядок, залишається в
-            рядку або керує дочірніми елементами як flex-контейнер.
-            Властивість <code>box-sizing: border-box</code> робить розміри
-            блоків більш передбачуваними, бо padding і border не збільшують
-            задану ширину елемента.
+            Властивість <code>display</code> допомагає керувати поведінкою
+            елементів у потоці сторінки, а <code>box-sizing</code> робить
+            розрахунок розмірів більш передбачуваним. Найзручнішим варіантом
+            для більшості сучасних макетів є <code>box-sizing: border-box</code>.
           </p>
         </article>
 
@@ -242,7 +193,7 @@
           <a class="page-nav-link" href="float-clear.html">Наступна сторінка →</a>
         </nav>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="site-footer">
