@@ -14,31 +14,19 @@ The repository is organized by homework assignments. Each folder demonstrates a 
 | `homework-02` | A multi-page HTML structure with pages for articles, catalog, gallery, contacts, navigation, and registration. |
 | `homework-03` | A styled multi-page website for **Canby Glass Design Studio** with custom layouts, navigation, images, icons, forms, and visual design. |
 | `homework-04` | A CSS selector practice page that demonstrates selector types, specificity, nesting, sibling selectors, attributes, IDs, classes, and pseudo-classes. |
-| `homework-template` | A starter template with HTML, CSS, and JavaScript files for future assignments. |
+| `homework-06` | A layout practice project with table examples, structured pages, custom icons, and a Mondrian-style visual composition. |
+| `homework-07` | A multi-page CSS box model project covering block and inline elements, normalize, reset, display, box-sizing, float, overflow, positioning, and practical block construction. |
+| `templates` | Reusable starter templates for HTML, JavaScript, and React/Vite homework projects. |
 
-## Main Website: Canby Glass Design Studio
-
-**Canby Glass Design Studio** is a fictional studio website for custom glass products. It presents the brand, product categories, articles, gallery content, contact information, and a registration form.
-
-### What The Project Does
-
-- Presents a branded landing page for a glass design studio.
-- Provides navigation between multiple website sections.
-- Shows product categories such as decorative glass items, glassware, gift sets, exclusive pieces, and glassblowing accessories.
-- Includes article pages with structured content.
-- Contains a gallery section for visual presentation.
-- Offers a registration/order form with different input types.
-- Demonstrates CSS layout, typography, hover effects, backgrounds, icons, and page-specific styling.
-
-### Key Features
+## Repository Features
 
 - **Semantic HTML structure** for clear and accessible page markup.
-- **Multi-page navigation** with active page states.
-- **Custom CSS styling** with reusable classes and shared layout patterns.
-- **Responsive meta configuration** for modern browser rendering.
-- **Form elements** including text fields, email, password, URL, file upload, radio buttons, checkboxes, date input, textarea, reset, and submit buttons.
-- **Reusable assets** such as SVG logos, icons, avatars, backgrounds, and favicons.
-- **CSS selector practice** covering class, ID, attribute, child, sibling, combined, and pseudo-class selectors.
+- **Separate folders** for each homework assignment.
+- **Reusable project organization** with assets, pages, styles, and documentation.
+- **Custom CSS styling** for layouts, navigation, cards, forms, tables, and visual demos.
+- **Practice-focused pages** that demonstrate specific HTML and CSS concepts.
+- **GitHub Pages support** through direct links to each homework folder.
+- **Markdown documentation** for the repository and selected homework projects.
 
 ## Technologies Used
 
@@ -62,8 +50,14 @@ full-stack-course/
 │   ├── pages/
 │   └── index.html
 ├── homework-04/
-├── homework-template/
+├── homework-06/
+├── homework-07/
+├── index.html
 ├── package.json
+├── templates/
+│   ├── html-homework-template/
+│   ├── js-homework-template/
+│   └── react-vite-template/
 └── README.md
 ```
 
@@ -78,7 +72,13 @@ No build step is required for the HTML/CSS pages.
 For example:
 
 ```text
-homework-03/index.html
+homework-07/index.html
+```
+
+The published GitHub Pages links follow this pattern:
+
+```text
+https://andrii-dolzhenko.github.io/full-stack-hero/homework-07/
 ```
 
 ## Learning Goals
