@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Демонстрація float-макетів</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+  <main class="page-main" id="top">
+    <section class="hero">
+      <img class="hero__decor hero__decor--left" src="assets/img/hero-decor-left.webp" alt="">
+      <img class="hero__decor hero__decor--right" src="assets/img/hero-decor-right.webp" alt="">
+      <img class="hero__mobile-decor hero__mobile-decor--left" src="assets/img/hero-plant-left-mobile.webp" alt="">
+      <img class="hero__mobile-decor hero__mobile-decor--right" src="assets/img/hero-plant-right-mobile.webp" alt="">
+
+      <div class="hero__content">
+        <div class="hero__badges">
+          <span class="hero__badge">HTML/CSS Homework 08</span>
+          <span class="hero__badge hero__badge--light">Float + Margin</span>
+        </div>
+
+        <h1 class="hero__title">Демонстрація float-макетів</h1>
+
+        <p class="hero__text">
+          Розміщення блоків за допомогою властивостей float і margin
+          на картках рослин.
+        </p>
+
+        <div class="hero__divider">
+          <img class="hero__divider-icon" src="assets/img/icons/hero-divider-leaf.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="task">
+      <h2 class="task__title">Завдання</h2>
+
+      <p class="task__text">
+        На цій сторінці показано 5 варіантів розміщення блоків за допомогою
+        float. Для позиціонування карток використано властивості float і margin.
+      </p>
+
+      <nav class="task__nav" aria-label="Навігація по варіантах">
+        <a class="task__link" href="#variant-1">Варіант 1</a>
+        <a class="task__link" href="#variant-2">Варіант 2</a>
+        <a class="task__link" href="#variant-3">Варіант 3</a>
+        <a class="task__link" href="#variant-4">Варіант 4</a>
+        <a class="task__link" href="#variant-5">Варіант 5</a>
+      </nav>
+    </section>
+
+    <section class="demo-section" id="variant-1">
+      <h2 class="demo-section__title">
+        1. Один блок ліворуч, другий праворуч
+      </h2>
+
+      <div class="demo-section__layout demo-section__layout--first clearfix">
+        <article class="plant-card plant-card--coral plant-card--left">
+          <img class="plant-card__image" src="assets/img/plants/echeveria-elegans.webp" alt="Echeveria elegans"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Echeveria elegans</h3>
+            <p class="plant-card__text">
+              Компактна розетка з м’яким декоративним листям.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Echeveria_elegans" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--olive plant-card--right">
+          <img class="plant-card__image" src="assets/img/plants/aloe-vera.webp" alt="Aloe vera" loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Aloe vera</h3>
+            <p class="plant-card__text">
+              Відомий сукулент із довгим соковитим листям.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Aloe_vera" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <details class="demo-section__details">
+        <summary class="demo-section__summary">Як зроблено цю схему</summary>
+        <p class="demo-section__text">
+          Перша картка отримує float: left, друга — float: right. Відступи між
+          блоками створюються через margin.
+        </p>
+      </details>
+    </section>
+
+    <section class="demo-section" id="variant-2">
+      <h2 class="demo-section__title">
+        2. Один блок ліворуч, кілька блоків праворуч
+      </h2>
+
+      <div class="demo-section__layout demo-section__layout--second clearfix">
+        <article class="plant-card plant-card--sand plant-card--left">
+          <img class="plant-card__image" src="assets/img/plants/crassula-ovata.webp" alt="Crassula ovata"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Crassula ovata</h3>
+            <p class="plant-card__text">
+              Невелике деревце з товстим блискучим листям.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Crassula_ovata" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--green plant-card--right">
+          <img class="plant-card__image" src="assets/img/plants/haworthia-fasciata.webp" alt="Haworthia fasciata"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Haworthia fasciata</h3>
+            <p class="plant-card__text">
+              Розетка з вузьким листям і світлими смужками.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Haworthiopsis_attenuata" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--terracotta plant-card--right">
+          <img class="plant-card__image" src="assets/img/plants/sedum-morganianum.webp" alt="Sedum morganianum"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Sedum morganianum</h3>
+            <p class="plant-card__text">
+              Ампельний сукулент із м’якими звисаючими пагонами.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Sedum_morganianum" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--clay plant-card--right">
+          <img class="plant-card__image" src="assets/img/plants/graptopetalum-paraguayense.webp"
+            alt="Graptopetalum paraguayense" loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Byrnesia weinbergii</h3>
+            <p class="plant-card__text">
+              Пастельна розетка з ніжним м’ясистим листям.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Graptopetalum_paraguayense" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <details class="demo-section__details">
+        <summary class="demo-section__summary">Як зроблено цю схему</summary>
+        <p class="demo-section__text">
+          Одна картка розміщується ліворуч, а кілька карток — праворуч.
+          Для відстані між ними використано margin.
+        </p>
+      </details>
+    </section>
+
+    <section class="demo-section" id="variant-3">
+      <h2 class="demo-section__title">
+        3. Два блоки ліворуч, два праворуч
+      </h2>
+
+      <div class="demo-section__layout demo-section__layout--third clearfix">
+        <article class="plant-card plant-card--olive plant-card--left">
+          <img class="plant-card__image" src="assets/img/plants/echinocactus-grusonii.webp" alt="Echinocactus grusonii"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Kroenleinia grusonii</h3>
+            <p class="plant-card__text">
+              Кулястий кактус із виразними ребрами та колючками.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Echinocactus_grusonii" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--sand plant-card--left">
+          <img class="plant-card__image" src="assets/img/plants/parodia-magnifica.webp" alt="Parodia magnifica"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Parodia magnifica</h3>
+            <p class="plant-card__text">
+              Кактус із м’яким зеленувато-сірим відтінком.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Parodia_magnifica" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--green plant-card--right">
+          <img class="plant-card__image" src="assets/img/plants/opuntia-microdasys.webp" alt="Opuntia microdasys"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Opuntia microdasys</h3>
+            <p class="plant-card__text">
+              Кактус із плоскими сегментами та світлими крапками.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Opuntia_microdasys" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--coral plant-card--right">
+          <img class="plant-card__image" src="assets/img/plants/lithops.webp" alt="Lithops" loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Lithops</h3>
+            <p class="plant-card__text">
+              Мініатюрні сукуленти, схожі на маленькі камінці.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Lithops" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <details class="demo-section__details">
+        <summary class="demo-section__summary">Як зроблено цю схему</summary>
+        <p class="demo-section__text">
+          Дві картки мають float: left, ще дві — float: right. Однакові margin
+          допомагають витримати структуру схеми.
+        </p>
+      </details>
+    </section>
+
+    <section class="demo-section" id="variant-4">
+      <h2 class="demo-section__title">
+        4. Три блоки праворуч, два з них один під одним
+      </h2>
+
+      <div class="demo-section__layout demo-section__layout--fourth clearfix">
+        <article class="plant-card plant-card--terracotta plant-card--right plant-card--large">
+          <img class="plant-card__image" src="assets/img/plants/kalanchoe-tomentosa.webp" alt="Kalanchoe tomentosa"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Kalanchoe tomentosa</h3>
+            <p class="plant-card__text">
+              Пухнастий сукулент із м’яким листям і темними краями.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Kalanchoe_tomentosa" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--olive plant-card--right plant-card--stacked">
+          <img class="plant-card__image" src="assets/img/plants/agave-attenuata.webp" alt="Agave attenuata"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Agave attenuata</h3>
+            <p class="plant-card__text">
+              Сукулент із широким гладким листям світлого тону.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Agave_attenuata" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+
+        <article class="plant-card plant-card--sand plant-card--right plant-card--stacked">
+          <img class="plant-card__image" src="assets/img/plants/sempervivum-tectorum.webp" alt="Sempervivum tectorum"
+            loading="lazy">
+
+          <div class="plant-card__content">
+            <h3 class="plant-card__title">Sempervivum tectorum</h3>
+            <p class="plant-card__text">
+              Щільна зелена розетка з дрібними дочірніми пагонами.
+            </p>
+            <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Sempervivum_tectorum" target="_blank"
+              rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <details class="demo-section__details">
+        <summary class="demo-section__summary">Як зроблено цю схему</summary>
+        <p class="demo-section__text">
+          Уся група розміщується праворуч. Великий блок займає одну колонку, а
+          дві менші картки стають поруч із ним одна під одною.
+        </p>
+      </details>
+    </section>
+
+    <section class="demo-section" id="variant-5">
+      <h2 class="demo-section__title">
+        5. Три блоки по центру, два з них один під одним
+      </h2>
+
+      <div class="demo-section__layout demo-section__layout--fifth clearfix">
+        <div class="demo-section__center clearfix">
+          <article class="plant-card plant-card--clay plant-card--left plant-card--large">
+            <img class="plant-card__image" src="assets/img/plants/ceropegia-woodii.webp" alt="Ceropegia woodii"
+              loading="lazy">
+
+            <div class="plant-card__content">
+              <h3 class="plant-card__title">Ceropegia woodii</h3>
+              <p class="plant-card__text">
+                Ампельна рослина з тонкими пагонами та серцеподібним листям.
+              </p>
+              <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Ceropegia_woodii" target="_blank"
+                rel="noopener noreferrer">
+                Wikipedia
+              </a>
+            </div>
+          </article>
+
+          <article class="plant-card plant-card--coral plant-card--right plant-card--stacked">
+            <img class="plant-card__image" src="assets/img/plants/pachyphytum-oviferum.webp" alt="Pachyphytum oviferum"
+              loading="lazy">
+
+            <div class="plant-card__content">
+              <h3 class="plant-card__title">Pachyphytum oviferum</h3>
+              <p class="plant-card__text">
+                Сукулент із круглим пастельним листям.
+              </p>
+              <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Pachyphytum_oviferum" target="_blank"
+                rel="noopener noreferrer">
+                Wikipedia
+              </a>
+            </div>
+          </article>
+
+          <article class="plant-card plant-card--green plant-card--right plant-card--stacked">
+            <img class="plant-card__image" src="assets/img/plants/mammillaria-gracilis.webp" alt="Mammillaria gracilis"
+              loading="lazy">
+
+            <div class="plant-card__content">
+              <h3 class="plant-card__title">Mammillaria gracilis</h3>
+              <p class="plant-card__text">
+                Компактний кактус із багатьма дрібними колючками.
+              </p>
+              <a class="plant-card__link" href="https://en.wikipedia.org/wiki/Mammillaria_gracilis" target="_blank"
+                rel="noopener noreferrer">
+                Wikipedia
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <details class="demo-section__details">
+        <summary class="demo-section__summary">Як зроблено цю схему</summary>
+        <p class="demo-section__text">
+          Група має фіксовану ширину та центрована через margin: 0 auto. Усередині
+          неї картки знову розміщуються за допомогою float.
+        </p>
+      </details>
+    </section>
+
+    <section class="code-info">
+      <h2 class="code-info__title">Як працює код</h2>
+
+      <div class="code-info__list">
+        <details class="info-card" name="code-accordion">
+          <summary class="info-card__summary">
+            <img class="info-card__icon" src="assets/img/icons/icon-float-grid.svg" alt="">
+            <span class="info-card__body">
+              <span class="info-card__title">Float-сітка карток</span>
+              <span class="info-card__preview">
+                Картки плавають ліворуч або праворуч, утворюючи потрібну
+                структуру рядка.
+              </span>
+            </span>
+            <span class="info-card__arrow" aria-hidden="true"></span>
+          </summary>
+
+          <p class="info-card__text">
+            За допомогою float можна розміщувати елементи з різних боків
+            контейнера та формувати схеми без flex і grid.
+          </p>
+        </details>
+
+        <details class="info-card" name="code-accordion">
+          <summary class="info-card__summary">
+            <img class="info-card__icon" src="assets/img/icons/icon-margin-spacing.svg" alt="">
+            <span class="info-card__body">
+              <span class="info-card__title">Margin для відступів</span>
+              <span class="info-card__preview">
+                Зовнішні відступи між картками створюють повітря та ритм макета.
+              </span>
+            </span>
+            <span class="info-card__arrow" aria-hidden="true"></span>
+          </summary>
+
+          <p class="info-card__text">
+            Властивість margin допомагає задати правильні проміжки між блоками
+            та відтворити потрібну композицію.
+          </p>
+        </details>
+
+        <details class="info-card" name="code-accordion">
+          <summary class="info-card__summary">
+            <img class="info-card__icon" src="assets/img/icons/icon-clearfix.svg" alt="">
+            <span class="info-card__body">
+              <span class="info-card__title">Очищення обтікання</span>
+              <span class="info-card__preview">
+                Clearfix забезпечує правильне завершення рядів після float.
+              </span>
+            </span>
+            <span class="info-card__arrow" aria-hidden="true"></span>
+          </summary>
+
+          <p class="info-card__text">
+            Clearfix не дозволяє наступним секціям підніматися вгору після
+            плаваючих елементів.
+          </p>
+        </details>
+
+        <details class="info-card" name="code-accordion">
+          <summary class="info-card__summary">
+            <img class="info-card__icon" src="assets/img/icons/icon-responsive.svg" alt="">
+            <span class="info-card__body">
+              <span class="info-card__title">Адаптивність</span>
+              <span class="info-card__preview">
+                Картки змінюють кількість у рядку на менших екранах завдяки
+                @media.
+              </span>
+            </span>
+            <span class="info-card__arrow" aria-hidden="true"></span>
+          </summary>
+
+          <p class="info-card__text">
+            На планшетах та смартфонах блоки стають простішими за структурою,
+            щоб сторінку було легко читати.
+          </p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <div class="home-action">
+    <a class="home-button" href="#top">
+      <img class="home-button__icon" src="assets/img/icons/home-icon.svg" alt="">
+      <span class="home-button__text">Додому</span>
+    </a>
+  </div>
+
+  <footer class="page-footer">
+    <p class="page-footer__text">
+      © All Rights Reserved. Andrii Dolzhenko. 2026.
+    </p>
+  </footer>
+</body>
+
+</html>
