@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Site</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+  <header class="site-header" id="home">
+    <div class="container site-header__inner">
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a class="site-nav__link site-nav__link--active" href="#home">Home</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#about">About</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#works">Works</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#process">Process</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title" id="hero-title">Design and Layout</h1>
+          <p class="hero__text">
+            Lorem Ipsum is a placeholder text commonly used in printing and web design.
+            Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
+          </p>
+          <a class="hero__button" href="#contacts">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="section-intro__title" id="about-title">About Me</h2>
+          <p class="section-intro__text">
+            Lorem Ipsum is a placeholder text commonly used in printing and web design.
+            Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="works" aria-labelledby="stats-title">
+      <div class="container">
+        <h2 class="visually-hidden" id="stats-title">Project statistics</h2>
+
+        <ul class="stats__list">
+          <li class="stats__item">
+            <img class="stats__icon" src="assets/img/project-icon.svg" alt="">
+            <div class="stats__content">
+              <strong class="stats__number">40+</strong>
+              <span class="stats__label">projects</span>
+            </div>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon" src="assets/img/project-icon.svg" alt="">
+            <div class="stats__content">
+              <strong class="stats__number">40+</strong>
+              <span class="stats__label">projects</span>
+            </div>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon" src="assets/img/project-icon.svg" alt="">
+            <div class="stats__content">
+              <strong class="stats__number">40+</strong>
+              <span class="stats__label">projects</span>
+            </div>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon" src="assets/img/project-icon.svg" alt="">
+            <div class="stats__content">
+              <strong class="stats__number">40+</strong>
+              <span class="stats__label">projects</span>
+            </div>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon" src="assets/img/project-icon.svg" alt="">
+            <div class="stats__content">
+              <strong class="stats__number">40+</strong>
+              <span class="stats__label">projects</span>
+            </div>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon" src="assets/img/project-icon.svg" alt="">
+            <div class="stats__content">
+              <strong class="stats__number">40+</strong>
+              <span class="stats__label">projects</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-intro process__intro">
+          <h2 class="section-intro__title" id="process-title">How I Work</h2>
+          <p class="section-intro__text">
+            Lorem Ipsum is a placeholder text commonly used in printing and web design.
+            Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
+          </p>
+        </div>
+
+        <div class="process__media">
+          <img class="process__image" src="assets/img/video-preview.webp"
+            alt="Workspace with a laptop, notebook and coffee cup">
+          <span class="process__play">
+            <img class="process__play-icon" src="assets/img/play-button.webp" alt="">
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <p class="footer__name">Andrii Dolzhenko</p>
+      <p class="footer__copyright">© 2026. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
