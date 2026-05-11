@@ -20,6 +20,7 @@
   --font-size-hero: 48px;
 
   --line-height-text: 22.4px;
+  --line-height-intro-text: 21.6667px;
   --line-height-ui: 26.256px;
   --line-height-hero: 78.8px;
   --line-height-title: 1;
@@ -261,7 +262,7 @@ img {
 }
 
 .section-intro__text {
-  line-height: var(--line-height-text);
+  line-height: var(--line-height-intro-text);
 }
 
 /* -- ABOUT -- */
@@ -424,6 +425,8 @@ img {
     --container-padding: 16px;
     --font-size-title: 28px;
     --font-size-hero: 40px;
+
+    --line-height-intro-text: 1.4;
 
     --space-header-top: 36px;
     --space-nav-to-hero: 80px;
