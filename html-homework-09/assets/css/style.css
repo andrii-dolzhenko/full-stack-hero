@@ -479,6 +479,7 @@ img {
   }
 
   .stats__list {
+    max-width: 503px;
     gap: 34px 40px;
   }
 
