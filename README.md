@@ -17,7 +17,8 @@ The repository is organized by homework assignments. Each folder demonstrates a 
 | `homework-06` | A layout practice project with table examples, structured pages, custom icons, and a Mondrian-style visual composition. |
 | `homework-07` | A multi-page CSS box model project covering block and inline elements, normalize, reset, display, box-sizing, float, overflow, positioning, and practical block construction. |
 | `html-homework-08` | A responsive float layout demo with plant cards, five block-positioning variants, navigation anchors, expandable explanations, and clearfix practice. |
-| `html-homework-09` | A responsive one-page landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
+| `html-homework-09-simple-site` | A one-page Simple Site landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
+| `html-homework-10-responsive-simple-site` | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and testing from 375px width. |
 | `templates` | Reusable starter templates for HTML, JavaScript, and React/Vite homework projects. |
 
 ## Repository Features
@@ -25,7 +26,7 @@ The repository is organized by homework assignments. Each folder demonstrates a 
 - **Semantic HTML structure** for clear and accessible page markup.
 - **Separate folders** for each homework assignment.
 - **Reusable project organization** with assets, pages, styles, and documentation.
-- **Custom CSS styling** for layouts, navigation, cards, forms, tables, float compositions, landing pages, and visual demos.
+- **Custom CSS styling** for layouts, navigation, cards, forms, tables, float compositions, landing pages, responsive states, and visual demos.
 - **Practice-focused pages** that demonstrate specific HTML and CSS concepts.
 - **Responsive homework pages** that adapt layout examples for tablets and mobile screens.
 - **GitHub Pages support** through direct links to each homework folder.
@@ -64,7 +65,13 @@ full-stack-course/
 │   │   └── img/
 │   ├── index.html
 │   └── README.md
-├── html-homework-09/
+├── html-homework-09-simple-site/
+│   ├── assets/
+│   │   ├── css/
+│   │   └── img/
+│   ├── index.html
+│   └── README.md
+├── html-homework-10-responsive-simple-site/
 │   ├── assets/
 │   │   ├── css/
 │   │   └── img/
@@ -90,13 +97,13 @@ No build step is required for the HTML/CSS pages.
 For example:
 
 ```text
-html-homework-09/index.html
+html-homework-10-responsive-simple-site/index.html
 ```
 
 The published GitHub Pages links follow this pattern:
 
 ```text
-https://andrii-dolzhenko.github.io/full-stack-hero/html-homework-09/
+https://andrii-dolzhenko.github.io/full-stack-hero/html-homework-10-responsive-simple-site/
 ```
 
 ## Learning Goals
@@ -114,6 +121,7 @@ This project helps practice:
 - building responsive one-page landing pages;
 - aligning content with Flexbox;
 - adapting layouts with media queries;
+- testing responsive pages across mobile, tablet, laptop, and desktop widths;
 - organizing project files;
 - preparing a repository for front-end coursework.
 
