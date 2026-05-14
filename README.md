@@ -6,30 +6,29 @@ This repository contains several practice projects built with **HTML**, **CSS**,
 
 ## Project Overview
 
-The repository is organized by homework assignments. Each folder demonstrates a specific stage of front-end learning, from simple HTML pages to styled layouts and responsive visual demos.
+The repository works as a course catalogue. Earlier homework assignments are still stored in local folders here, while newer assignments can live in separate repositories and be linked from the root `index.html`.
 
-| Folder | Description |
+| Project | Location | Description |
 | --- | --- |
-| `homework-01` | A basic HTML page about Ukraine's Eurovision 2026 representative, including text, an image, lists, preformatted content, and an external video link. |
-| `homework-02` | A multi-page HTML structure with pages for articles, catalog, gallery, contacts, navigation, and registration. |
-| `homework-03` | A styled multi-page website for **Canby Glass Design Studio** with custom layouts, navigation, images, icons, forms, and visual design. |
-| `homework-04` | A CSS selector practice page that demonstrates selector types, specificity, nesting, sibling selectors, attributes, IDs, classes, and pseudo-classes. |
-| `homework-06` | A layout practice project with table examples, structured pages, custom icons, and a Mondrian-style visual composition. |
-| `homework-07` | A multi-page CSS box model project covering block and inline elements, normalize, reset, display, box-sizing, float, overflow, positioning, and practical block construction. |
-| `html-homework-08` | A responsive float layout demo with plant cards, five block-positioning variants, navigation anchors, expandable explanations, and clearfix practice. |
-| `html-homework-09-simple-site` | A one-page Simple Site landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
-| `html-homework-10-responsive-simple-site` | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and testing from 375px width. |
-| `templates` | Reusable starter templates for HTML, JavaScript, and React/Vite homework projects. |
+| `homework-01` | Folder in this repo | A basic HTML page about Ukraine's Eurovision 2026 representative, including text, an image, lists, preformatted content, and an external video link. |
+| `homework-02` | Folder in this repo | A multi-page HTML structure with pages for articles, catalog, gallery, contacts, navigation, and registration. |
+| `homework-03` | Folder in this repo | A styled multi-page website for **Canby Glass Design Studio** with custom layouts, navigation, images, icons, forms, and visual design. |
+| `homework-04` | Folder in this repo | A CSS selector practice page that demonstrates selector types, specificity, nesting, sibling selectors, attributes, IDs, classes, and pseudo-classes. |
+| `homework-06` | Folder in this repo | A layout practice project with table examples, structured pages, custom icons, and a Mondrian-style visual composition. |
+| `homework-07` | Folder in this repo | A multi-page CSS box model project covering block and inline elements, normalize, reset, display, box-sizing, float, overflow, positioning, and practical block construction. |
+| `html-homework-08` | Folder in this repo | A responsive float layout demo with plant cards, five block-positioning variants, navigation anchors, expandable explanations, and clearfix practice. |
+| `html-homework-09-simple-site` | Folder in this repo | A one-page Simple Site landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
+| `homework-10-responsive-simple-site` | Separate repository | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and viewport testing. |
 
 ## Repository Features
 
 - **Semantic HTML structure** for clear and accessible page markup.
-- **Separate folders** for each homework assignment.
+- **Separate project organization** for homework assignments.
 - **Reusable project organization** with assets, pages, styles, and documentation.
 - **Custom CSS styling** for layouts, navigation, cards, forms, tables, float compositions, landing pages, responsive states, and visual demos.
 - **Practice-focused pages** that demonstrate specific HTML and CSS concepts.
 - **Responsive homework pages** that adapt layout examples for tablets and mobile screens.
-- **GitHub Pages support** through direct links to each homework folder.
+- **GitHub Pages support** through direct links to local homework folders and separate repositories.
 - **Markdown documentation** for the repository and selected homework projects.
 
 ## Technologies Used
@@ -71,18 +70,8 @@ full-stack-course/
 │   │   └── img/
 │   ├── index.html
 │   └── README.md
-├── html-homework-10-responsive-simple-site/
-│   ├── assets/
-│   │   ├── css/
-│   │   └── img/
-│   ├── index.html
-│   └── README.md
 ├── index.html
 ├── package.json
-├── templates/
-│   ├── html-homework-template/
-│   ├── js-homework-template/
-│   └── react-vite-template/
 └── README.md
 ```
 
@@ -91,19 +80,25 @@ full-stack-course/
 No build step is required for the HTML/CSS pages.
 
 1. Open the project folder.
-2. Choose one of the homework directories.
+2. Choose one of the homework directories or use the root catalogue page.
 3. Open the required `index.html` file in a browser.
 
 For example:
 
 ```text
-html-homework-10-responsive-simple-site/index.html
+html-homework-09-simple-site/index.html
 ```
 
-The published GitHub Pages links follow this pattern:
+Folder-based GitHub Pages links in this catalogue follow this pattern:
 
 ```text
-https://andrii-dolzhenko.github.io/full-stack-hero/html-homework-10-responsive-simple-site/
+https://andrii-dolzhenko.github.io/full-stack-hero/html-homework-09-simple-site/
+```
+
+Separate homework repositories have their own GitHub Pages links, for example:
+
+```text
+https://andrii-dolzhenko.github.io/homework-10-responsive-simple-site/
 ```
 
 ## Learning Goals
