@@ -19,6 +19,8 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | `html-homework-08` | Folder in this repo | A responsive float layout demo with plant cards, five block-positioning variants, navigation anchors, expandable explanations, and clearfix practice. |
 | `html-homework-09-simple-site` | Folder in this repo | A one-page Simple Site landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
 | `homework-10-responsive-simple-site` | Separate repository | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and viewport testing. |
+| `css-homework-11-simple-site-refactoring` | Separate repository | A refactored Simple Site project with modular SCSS, Gulp build automation, minified stylesheet output, and responsive layout enhancements. |
+| `homework-13-svg-css-animation` | Separate repository | Interactive SVG gallery with styled shapes and CSS animations; includes accessibility considerations and responsive layout. |
 
 ## Repository Features
 
