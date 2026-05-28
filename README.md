@@ -21,6 +21,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | `homework-10-responsive-simple-site` | Separate repository | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and viewport testing. |
 | `css-homework-11-simple-site-refactoring` | Separate repository | A refactored Simple Site project with modular SCSS, Gulp build automation, minified stylesheet output, and responsive layout enhancements. |
 | `homework-13-svg-css-animation` | Separate repository | Interactive SVG gallery with styled shapes and CSS animations; includes accessibility considerations and responsive layout. |
+| `homework-14-bootstrap` | Separate repository | A responsive Bootstrap landing page for CANBY Glass Design Studio with carousel sections, dropdown/offcanvas navigation, product modals, accordion content, and a consultation form. |
 
 ## Repository Features
 
@@ -39,6 +40,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - CSS3
 - JavaScript basics
 - SVG assets
+- Bootstrap 5
 - WebP images
 - WOFF2 fonts
 - Google Fonts
@@ -116,6 +118,7 @@ This project helps practice:
 - positioning blocks with float and margin;
 - clearing floated layouts with clearfix;
 - building responsive one-page landing pages;
+- building interactive Bootstrap-based landing pages;
 - aligning content with Flexbox;
 - adapting layouts with media queries;
 - testing responsive pages across mobile, tablet, laptop, and desktop widths;
