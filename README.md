@@ -8,20 +8,20 @@ This repository contains several practice projects built with **HTML**, **CSS**,
 
 The repository works as a course catalogue. Earlier homework assignments are still stored in local folders here, while newer assignments can live in separate repositories and be linked from the root `index.html`.
 
-| Project | Location | Description |
-| --- | --- |
-| `homework-01` | Folder in this repo | A basic HTML page about Ukraine's Eurovision 2026 representative, including text, an image, lists, preformatted content, and an external video link. |
-| `homework-02` | Folder in this repo | A multi-page HTML structure with pages for articles, catalog, gallery, contacts, navigation, and registration. |
-| `homework-03` | Folder in this repo | A styled multi-page website for **Canby Glass Design Studio** with custom layouts, navigation, images, icons, forms, and visual design. |
-| `homework-04` | Folder in this repo | A CSS selector practice page that demonstrates selector types, specificity, nesting, sibling selectors, attributes, IDs, classes, and pseudo-classes. |
-| `homework-06` | Folder in this repo | A layout practice project with table examples, structured pages, custom icons, and a Mondrian-style visual composition. |
-| `homework-07` | Folder in this repo | A multi-page CSS box model project covering block and inline elements, normalize, reset, display, box-sizing, float, overflow, positioning, and practical block construction. |
-| `html-homework-08` | Folder in this repo | A responsive float layout demo with plant cards, five block-positioning variants, navigation anchors, expandable explanations, and clearfix practice. |
-| `html-homework-09-simple-site` | Folder in this repo | A one-page Simple Site landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
-| `homework-10-responsive-simple-site` | Separate repository | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and viewport testing. |
-| `css-homework-11-simple-site-refactoring` | Separate repository | A refactored Simple Site project with modular SCSS, Gulp build automation, minified stylesheet output, and responsive layout enhancements. |
-| `homework-13-svg-css-animation` | Separate repository | Interactive SVG gallery with styled shapes and CSS animations; includes accessibility considerations and responsive layout. |
-| `homework-14-bootstrap` | Separate repository | A responsive Bootstrap landing page for CANBY Glass Design Studio with carousel sections, dropdown/offcanvas navigation, product modals, accordion content, and a consultation form. |
+| # | Project | Status | Location | Description |
+| --- | --- | --- | --- | --- |
+| 1️⃣ | `homework-01` | ✅ Local | Folder | A basic HTML page about Ukraine's Eurovision 2026 representative, including text, an image, lists, preformatted content, and an external video link. |
+| 2️⃣ | `homework-02` | ✅ Local | Folder | A multi-page HTML structure with pages for articles, catalog, gallery, contacts, navigation, and registration. |
+| 3️⃣ | `homework-03` | ✅ Local | Folder | A styled multi-page website for **Canby Glass Design Studio** with custom layouts, navigation, images, icons, forms, and visual design. |
+| 4️⃣ | `homework-04` | ✅ Local | Folder | A CSS selector practice page that demonstrates selector types, specificity, nesting, sibling selectors, attributes, IDs, classes, and pseudo-classes. |
+| 6️⃣ | `homework-06` | ✅ Local | Folder | A layout practice project with table examples, structured pages, custom icons, and a Mondrian-style visual composition. |
+| 7️⃣ | `homework-07` | ✅ Local | Folder | A multi-page CSS box model project covering block and inline elements, normalize, reset, display, box-sizing, float, overflow, positioning, and practical block construction. |
+| 8️⃣ | `html-homework-08` | ✅ Local | Folder | A responsive float layout demo with plant cards, five block-positioning variants, navigation anchors, expandable explanations, and clearfix practice. |
+| 9️⃣ | `html-homework-09-simple-site` | ✅ Local | Folder | A one-page Simple Site landing page with header navigation, hero content, about section, statistics strip, process media preview, and footer. |
+| 🔟 | `homework-10-responsive-simple-site` | 🔗 Linked | Repository | A responsive continuation of Simple Site focused on media queries, flexible spacing, adaptive layout behavior, and viewport testing. |
+| 1️⃣1️⃣ | `css-homework-11-simple-site-refactoring` | 🔗 Linked | Repository | A refactored Simple Site project with modular SCSS, Gulp build automation, minified stylesheet output, and responsive layout enhancements. |
+| 1️⃣3️⃣ | `homework-13-svg-css-animation` | 🔗 Linked | Repository | Interactive SVG gallery with styled shapes and CSS animations; includes accessibility considerations and responsive layout. |
+| 1️⃣4️⃣ | `homework-14-bootstrap` | 🔗 Linked | Repository | A responsive Bootstrap landing page for CANBY Glass Design Studio with carousel sections, dropdown/offcanvas navigation, product modals, accordion content, and a consultation form. |
 
 ## Repository Features
 
