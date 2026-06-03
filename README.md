@@ -22,6 +22,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | 1️⃣1️⃣ | `css-homework-11-simple-site-refactoring` | 🔗 Linked | Repository | A refactored Simple Site project with modular SCSS, Gulp build automation, minified stylesheet output, and responsive layout enhancements. |
 | 1️⃣3️⃣ | `homework-13-svg-css-animation` | 🔗 Linked | Repository | Interactive SVG gallery with styled shapes and CSS animations; includes accessibility considerations and responsive layout. |
 | 1️⃣4️⃣ | `homework-14-bootstrap` | 🔗 Linked | Repository | A responsive Bootstrap landing page for CANBY Glass Design Studio with carousel sections, dropdown/offcanvas navigation, product modals, accordion content, and a consultation form. |
+| 1️⃣5️⃣ | `homework-15-tailwind` | 🔗 Linked | Repository | A responsive Vite and Tailwind CSS football prediction dashboard for the FIFA World Cup 2026 with match forecasts, schedule filters, player ratings, rules, modals, and theme switching. |
 
 ## Repository Features
 
@@ -31,6 +32,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - **Custom CSS styling** for layouts, navigation, cards, forms, tables, float compositions, landing pages, responsive states, and visual demos.
 - **Practice-focused pages** that demonstrate specific HTML and CSS concepts.
 - **Responsive homework pages** that adapt layout examples for tablets and mobile screens.
+- **Dynamic single-page homework apps** with JavaScript-rendered sections, filters, modals, and persisted UI state.
 - **GitHub Pages support** through direct links to local homework folders and separate repositories.
 - **Markdown documentation** for the repository and selected homework projects.
 
@@ -41,6 +43,8 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - JavaScript basics
 - SVG assets
 - Bootstrap 5
+- Tailwind CSS 4
+- Vite
 - WebP images
 - WOFF2 fonts
 - Google Fonts
@@ -105,6 +109,10 @@ Separate homework repositories have their own GitHub Pages links, for example:
 https://andrii-dolzhenko.github.io/homework-10-responsive-simple-site/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/homework-15-tailwind/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -122,6 +130,9 @@ This project helps practice:
 - aligning content with Flexbox;
 - adapting layouts with media queries;
 - testing responsive pages across mobile, tablet, laptop, and desktop widths;
+- building utility-first responsive interfaces with Tailwind CSS;
+- rendering dynamic single-page app sections from local JavaScript data;
+- managing UI state, filters, modals, theme toggles, and localStorage;
 - organizing project files;
 - preparing a repository for front-end coursework.
 
