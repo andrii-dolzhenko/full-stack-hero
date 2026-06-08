@@ -23,6 +23,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | 1️⃣3️⃣ | `homework-13-svg-css-animation` | 🔗 Linked | Repository | Interactive SVG gallery with styled shapes and CSS animations; includes accessibility considerations and responsive layout. |
 | 1️⃣4️⃣ | `homework-14-bootstrap` | 🔗 Linked | Repository | A responsive Bootstrap landing page for CANBY Glass Design Studio with carousel sections, dropdown/offcanvas navigation, product modals, accordion content, and a consultation form. |
 | 1️⃣5️⃣ | `homework-15-tailwind` | 🔗 Linked | Repository | A responsive Vite and Tailwind CSS football prediction dashboard for the FIFA World Cup 2026 with match forecasts, schedule filters, player ratings, rules, modals, and theme switching. |
+| 1️⃣7️⃣ | `homework-17-final-scss` | 🔗 Linked | Repository | A final responsive SCSS web project with component sections, modular partials, WebP images, hover/focus states, and an animated mobile burger menu. |
 
 ## Repository Features
 
@@ -43,6 +44,8 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - JavaScript basics
 - SVG assets
 - Bootstrap 5
+- SCSS
+- Gulp
 - Tailwind CSS 4
 - Vite
 - WebP images
@@ -113,6 +116,10 @@ https://andrii-dolzhenko.github.io/homework-10-responsive-simple-site/
 https://andrii-dolzhenko.github.io/homework-15-tailwind/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/homework-17-final-scss/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -133,6 +140,8 @@ This project helps practice:
 - building utility-first responsive interfaces with Tailwind CSS;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
+- organizing SCSS with partial files, variables, mixins, and component sections;
+- building animated mobile navigation and interactive hover/focus states;
 - organizing project files;
 - preparing a repository for front-end coursework.
 
