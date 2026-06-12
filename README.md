@@ -2,7 +2,7 @@
 
 > A collection of front-end homework projects created during a full-stack development course.
 
-This repository contains several practice projects built with **HTML**, **CSS**, and basic front-end tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, and organizing multi-page websites.
+This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, and basic front-end tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, and practicing JavaScript fundamentals.
 
 ## Project Overview
 
@@ -24,6 +24,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | 1️⃣4️⃣ | `homework-14-bootstrap` | 🔗 Linked | Repository | A responsive Bootstrap landing page for CANBY Glass Design Studio with carousel sections, dropdown/offcanvas navigation, product modals, accordion content, and a consultation form. |
 | 1️⃣5️⃣ | `homework-15-tailwind` | 🔗 Linked | Repository | A responsive Vite and Tailwind CSS football prediction dashboard for the FIFA World Cup 2026 with match forecasts, schedule filters, player ratings, rules, modals, and theme switching. |
 | 1️⃣7️⃣ | `homework-17-final-scss` | 🔗 Linked | Repository | A final responsive SCSS web project with component sections, modular partials, WebP images, hover/focus states, and an animated mobile burger menu. |
+| JS 1️⃣ | `js-homework-01-tests` | 🔗 Linked | Repository | A JavaScript basics assignment with variables, data types, number formatting, BigInt practice, Vitest checks, and a browser demo that mirrors console output on the page. |
 
 ## Repository Features
 
@@ -120,6 +121,10 @@ https://andrii-dolzhenko.github.io/homework-15-tailwind/
 https://andrii-dolzhenko.github.io/homework-17-final-scss/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-01-tests/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -138,6 +143,9 @@ This project helps practice:
 - adapting layouts with media queries;
 - testing responsive pages across mobile, tablet, laptop, and desktop widths;
 - building utility-first responsive interfaces with Tailwind CSS;
+- creating JavaScript variables with primitive and structured values;
+- formatting numbers and working with BigInt values;
+- running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
 - organizing SCSS with partial files, variables, mixins, and component sections;
