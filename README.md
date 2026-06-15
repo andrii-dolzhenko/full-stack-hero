@@ -25,6 +25,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | 1️⃣5️⃣ | `homework-15-tailwind` | 🔗 Linked | Repository | A responsive Vite and Tailwind CSS football prediction dashboard for the FIFA World Cup 2026 with match forecasts, schedule filters, player ratings, rules, modals, and theme switching. |
 | 1️⃣7️⃣ | `homework-17-final-scss` | 🔗 Linked | Repository | A final responsive SCSS web project with component sections, modular partials, WebP images, hover/focus states, and an animated mobile burger menu. |
 | JS 1️⃣ | `js-homework-01-tests` | 🔗 Linked | Repository | A JavaScript basics assignment with variables, data types, number formatting, BigInt practice, Vitest checks, and a browser demo that mirrors console output on the page. |
+| JS 2️⃣ | `js-homework-02-operators` | 🔗 Linked | Repository | A JavaScript operators assignment with increment/decrement, compound assignment, Math methods, string operations, helper functions, BigInt sums, Vitest checks, and a browser demo that mirrors console output on the page. |
 
 ## Repository Features
 
@@ -125,6 +126,10 @@ https://andrii-dolzhenko.github.io/homework-17-final-scss/
 https://andrii-dolzhenko.github.io/js-homework-01-tests/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-02-operators/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -145,6 +150,7 @@ This project helps practice:
 - building utility-first responsive interfaces with Tailwind CSS;
 - creating JavaScript variables with primitive and structured values;
 - formatting numbers and working with BigInt values;
+- using JavaScript operators, Math methods, string methods, and helper functions;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
