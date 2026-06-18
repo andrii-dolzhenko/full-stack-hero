@@ -26,6 +26,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | 1️⃣7️⃣ | `homework-17-final-scss` | 🔗 Linked | Repository | A final responsive SCSS web project with component sections, modular partials, WebP images, hover/focus states, and an animated mobile burger menu. |
 | JS 1️⃣ | `js-homework-01-tests` | 🔗 Linked | Repository | A JavaScript basics assignment with variables, data types, number formatting, BigInt practice, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 2️⃣ | `js-homework-02-operators` | 🔗 Linked | Repository | A JavaScript operators assignment with increment/decrement, compound assignment, Math methods, string operations, helper functions, BigInt sums, Vitest checks, and a browser demo that mirrors console output on the page. |
+| JS 3️⃣ | `js-homework-03-functions` | 🔗 Linked | Repository | A JavaScript functions assignment with objects, methods, loops, switch cases, ternary operators, callbacks, exported functions, Vitest checks, and a browser demo that mirrors console output on the page. |
 
 ## Repository Features
 
@@ -130,6 +131,10 @@ https://andrii-dolzhenko.github.io/js-homework-01-tests/
 https://andrii-dolzhenko.github.io/js-homework-02-operators/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-03-functions/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -151,6 +156,7 @@ This project helps practice:
 - creating JavaScript variables with primitive and structured values;
 - formatting numbers and working with BigInt values;
 - using JavaScript operators, Math methods, string methods, and helper functions;
+- writing JavaScript functions with objects, loops, switch cases, ternary operators, and callbacks;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
