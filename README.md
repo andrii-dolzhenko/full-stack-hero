@@ -29,6 +29,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 3️⃣ | `js-homework-03-functions` | 🔗 Linked | Repository | A JavaScript functions assignment with objects, methods, loops, switch cases, ternary operators, callbacks, exported functions, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 4️⃣ | `js-homework-04-hof-closures` | 🔗 Linked | Repository | A JavaScript higher-order functions assignment with nested functions, closures, function modification, currying, domain generation, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 5️⃣ | `js-homework-05-this-bind` | 🔗 Linked | Repository | A JavaScript assignment with closure counters, recursive power calculation, callback formatting, Math.max with apply, bind-based helpers, Vitest checks, and a browser demo that mirrors console output on the page. |
+| JS 6️⃣ | `js-homework-06-map-set-classes` | 🔗 Linked | Repository | A JavaScript classes assignment with a Map-based calorie calculator, a Set-based unique username registry, Vitest checks, and a browser demo that mirrors console output on the page. |
 
 ## Repository Features
 
@@ -145,6 +146,10 @@ https://andrii-dolzhenko.github.io/js-homework-04-hof-closures/
 https://andrii-dolzhenko.github.io/js-homework-05-this-bind/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-06-map-set-classes/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -169,6 +174,7 @@ This project helps practice:
 - writing JavaScript functions with objects, loops, switch cases, ternary operators, and callbacks;
 - practicing higher-order functions, closures, currying, and function composition patterns;
 - working with closure state, recursive callbacks, apply, and bind;
+- building class-based JavaScript modules with Map and Set collections;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
