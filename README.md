@@ -31,6 +31,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 5️⃣ | `js-homework-05-this-bind` | 🔗 Linked | Repository | A JavaScript assignment with closure counters, recursive power calculation, callback formatting, Math.max with apply, bind-based helpers, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 6️⃣ | `js-homework-06-map-set-classes` | 🔗 Linked | Repository | A JavaScript classes assignment with a Map-based calorie calculator, a Set-based unique username registry, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 7️⃣ | `js-homework-07-array-date` | 🔗 Linked | Repository | A JavaScript assignment with reduce, map, a class-based skills manager, a DateCalculator constructor, Vitest checks, and a browser demo that mirrors console output on the page. |
+| JS 8️⃣ | `js-homework-08-dom-storage` | 🔗 Linked | Repository | A JavaScript DOM and browser storage assignment with dynamic element creation, encoded cookies, sessionStorage helpers, Vitest checks, and a browser demo that mirrors console output on the page. |
 
 ## Repository Features
 
@@ -155,6 +156,10 @@ https://andrii-dolzhenko.github.io/js-homework-06-map-set-classes/
 https://andrii-dolzhenko.github.io/js-homework-07-array-date/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-08-dom-storage/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -181,6 +186,7 @@ This project helps practice:
 - working with closure state, recursive callbacks, apply, and bind;
 - building class-based JavaScript modules with Map and Set collections;
 - using array reduce/map methods, class-based managers, and date constructors;
+- creating DOM elements and working with cookies and sessionStorage;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
