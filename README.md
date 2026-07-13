@@ -33,6 +33,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 7️⃣ | `js-homework-07-array-date` | 🔗 Linked | Repository | A JavaScript assignment with reduce, map, a class-based skills manager, a DateCalculator constructor, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 8️⃣ | `js-homework-08-dom-storage` | 🔗 Linked | Repository | A JavaScript DOM and browser storage assignment with dynamic element creation, encoded cookies, sessionStorage helpers, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 9️⃣ | `js-homework-09-dom-events` | 🔗 Linked | Repository | A JavaScript DOM events assignment with button click handling, mouse position tracking, delegated list clicks, Vitest checks, and a browser demo that mirrors console output on the page. |
+| JS 🔟 | `-js-homework-10-carousel-` | 🔗 Linked | Repository | A responsive CANBY glass collection carousel with autoplay, previous and next controls, indicators, swipe and keyboard navigation, product copy updates, and Vitest checks. |
 
 ## Repository Features
 
@@ -165,6 +166,10 @@ https://andrii-dolzhenko.github.io/js-homework-08-dom-storage/
 https://andrii-dolzhenko.github.io/js-homework-09-dom-events/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/-js-homework-10-carousel-/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -193,6 +198,7 @@ This project helps practice:
 - using array reduce/map methods, class-based managers, and date constructors;
 - creating DOM elements and working with cookies and sessionStorage;
 - handling DOM events, mouse movement, and delegated list clicks;
+- building a responsive product carousel with controls, indicators, swipe gestures, and keyboard navigation;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
