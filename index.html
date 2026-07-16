@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Full Stack Course Projects</title>
+  <link rel="icon" href="html-homework-09-simple-site/assets/img/favicon.svg" type="image/svg+xml">
   <style>
     *,
     *::before,
@@ -151,6 +152,21 @@
       font-weight: 700;
     }
 
+    .project-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .project-actions .project-action {
+      text-decoration: none;
+    }
+
+    .project-actions .project-action:hover,
+    .project-actions .project-action:focus-visible {
+      text-decoration: underline;
+    }
+
     .page-footer {
       padding: 24px 0;
       color: #64748b;
@@ -181,7 +197,7 @@
     <section class="container" aria-labelledby="projects-title">
       <div class="section-heading">
         <h2 id="projects-title">Available Projects</h2>
-        <p class="project-count">24 published homework projects</p>
+        <p class="project-count">25 published homework projects</p>
       </div>
 
       <ul class="project-list">
@@ -484,6 +500,24 @@
             </span>
             <span class="project-action">Open project</span>
           </a>
+        </li>
+
+        <li class="project-card">
+          <div class="project-link">
+            <span class="project-number">JS Homework 11</span>
+            <strong class="project-title">CANBY OOP Carousel</strong>
+            <span class="project-description">
+              A pure JavaScript OOP carousel with class and prototype
+              implementations, inheritance, configurable autoplay, dynamic
+              controls, keyboard navigation, and mouse/touch swipe.
+            </span>
+            <nav class="project-actions" aria-label="CANBY OOP Carousel links">
+              <a class="project-action" href="https://andrii-dolzhenko.github.io/js-homework-11-oop-carousel/">Demo</a>
+              <a class="project-action" href="https://github.com/andrii-dolzhenko/js-homework-11-oop-carousel">Repository</a>
+              <a class="project-action" href="https://github.com/andrii-dolzhenko/js-homework-11-oop-carousel/tree/classes">Classes</a>
+              <a class="project-action" href="https://github.com/andrii-dolzhenko/js-homework-11-oop-carousel/tree/prototypes">Prototypes</a>
+            </nav>
+          </div>
         </li>
       </ul>
     </section>
