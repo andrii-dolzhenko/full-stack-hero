@@ -35,6 +35,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 9️⃣ | `js-homework-09-dom-events` | 🔗 Linked | Repository | A JavaScript DOM events assignment with button click handling, mouse position tracking, delegated list clicks, Vitest checks, and a browser demo that mirrors console output on the page. |
 | JS 🔟 | `-js-homework-10-carousel-` | 🔗 Linked | Repository | A responsive CANBY glass collection carousel with autoplay, previous and next controls, indicators, swipe and keyboard navigation, product copy updates, and Vitest checks. |
 | JS 1️⃣1️⃣ | `js-homework-11-oop-carousel` | 🔗 Linked | Repository | A pure JavaScript CANBY carousel with separate class-based and prototype-based implementations, inheritance, dynamic controls, configurable autoplay, keyboard navigation, and mouse/touch swipe. |
+| JS 1️⃣2️⃣ | `js-homework-12-testing` | 🔗 Linked | Repository | DOM event handlers for button clicks, mouse tracking, and delegated list interactions, tested with Vitest and jsdom. |
 
 ## Repository Features
 
@@ -63,6 +64,8 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - WOFF2 fonts
 - Google Fonts
 - ESLint
+- Vitest
+- jsdom
 
 ## Project Structure
 
@@ -175,6 +178,10 @@ https://andrii-dolzhenko.github.io/-js-homework-10-carousel-/
 https://andrii-dolzhenko.github.io/js-homework-11-oop-carousel/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-12-testing/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -205,6 +212,7 @@ This project helps practice:
 - handling DOM events, mouse movement, and delegated list clicks;
 - building a responsive product carousel with controls, indicators, swipe gestures, and keyboard navigation;
 - implementing carousel inheritance with ES6 classes and explicit prototype chains;
+- testing DOM event handlers with Vitest and jsdom;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
