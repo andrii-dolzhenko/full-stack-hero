@@ -36,6 +36,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 🔟 | `-js-homework-10-carousel-` | 🔗 Linked | Repository | A responsive CANBY glass collection carousel with autoplay, previous and next controls, indicators, swipe and keyboard navigation, product copy updates, and Vitest checks. |
 | JS 1️⃣1️⃣ | `js-homework-11-oop-carousel` | 🔗 Linked | Repository | A pure JavaScript CANBY carousel with separate class-based and prototype-based implementations, inheritance, dynamic controls, configurable autoplay, keyboard navigation, and mouse/touch swipe. |
 | JS 1️⃣2️⃣ | `js-homework-12-testing` | 🔗 Linked | Repository | DOM event handlers for button clicks, mouse tracking, and delegated list interactions, tested with Vitest and jsdom. |
+| JS 1️⃣3️⃣ | `js-homework-13-regular-expressions` | 🔗 Linked | Repository | Email and URL validation with regular expressions, additional edge-case tests, Vitest checks, and an interactive browser demo. |
 
 ## Repository Features
 
@@ -182,6 +183,10 @@ https://andrii-dolzhenko.github.io/js-homework-11-oop-carousel/
 https://andrii-dolzhenko.github.io/js-homework-12-testing/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-13-regular-expressions/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -213,6 +218,7 @@ This project helps practice:
 - building a responsive product carousel with controls, indicators, swipe gestures, and keyboard navigation;
 - implementing carousel inheritance with ES6 classes and explicit prototype chains;
 - testing DOM event handlers with Vitest and jsdom;
+- validating email addresses and website URLs with regular expressions;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
