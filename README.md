@@ -37,6 +37,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣1️⃣ | `js-homework-11-oop-carousel` | 🔗 Linked | Repository | A pure JavaScript CANBY carousel with separate class-based and prototype-based implementations, inheritance, dynamic controls, configurable autoplay, keyboard navigation, and mouse/touch swipe. |
 | JS 1️⃣2️⃣ | `js-homework-12-testing` | 🔗 Linked | Repository | DOM event handlers for button clicks, mouse tracking, and delegated list interactions, tested with Vitest and jsdom. |
 | JS 1️⃣3️⃣ | `js-homework-13-regular-expressions` | 🔗 Linked | Repository | Email and URL validation with regular expressions, additional edge-case tests, Vitest checks, and an interactive browser demo. |
+| JS 1️⃣4️⃣ | `js-homework-14-fetch-crud` | 🔗 Linked | Repository | Interactive CRUD request builder using Fetch API, async/await, JSON, HTTP methods, status handling, and JSONPlaceholder. |
 
 ## Repository Features
 
@@ -187,6 +188,10 @@ https://andrii-dolzhenko.github.io/js-homework-12-testing/
 https://andrii-dolzhenko.github.io/js-homework-13-regular-expressions/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-14-fetch-crud/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -219,6 +224,7 @@ This project helps practice:
 - implementing carousel inheritance with ES6 classes and explicit prototype chains;
 - testing DOM event handlers with Vitest and jsdom;
 - validating email addresses and website URLs with regular expressions;
+- sending asynchronous CRUD requests with the Fetch API and handling JSON and HTTP statuses;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
