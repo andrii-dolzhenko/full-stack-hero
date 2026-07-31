@@ -147,6 +147,39 @@
       color: #4b5563;
     }
 
+    .project-preview {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 6 / 5;
+      margin-bottom: 18px;
+      border: 1px solid #d9e3ee;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position: center top;
+      background: #0b0f15;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0 0 20px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .project-tag {
+      padding: 3px 8px;
+      border: 1px solid #d9e3ee;
+      border-radius: 4px;
+      color: #475569;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.4;
+      background: #f8fafc;
+    }
+
     .project-action {
       color: #0f766e;
       font-weight: 700;
@@ -197,7 +230,7 @@
     <section class="container" aria-labelledby="projects-title">
       <div class="section-heading">
         <h2 id="projects-title">Available Projects</h2>
-        <p class="project-count">28 published homework projects</p>
+        <p class="project-count">29 published homework projects</p>
       </div>
 
       <ul class="project-list">
@@ -563,6 +596,38 @@
             <nav class="project-actions" aria-label="Fetch API CRUD Demo links">
               <a class="project-action" href="https://andrii-dolzhenko.github.io/js-homework-14-fetch-crud/">Demo</a>
               <a class="project-action" href="https://github.com/andrii-dolzhenko/js-homework-14-fetch-crud">Repository</a>
+            </nav>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <div class="project-link">
+            <img
+              class="project-preview"
+              src="./assets/previews/cinescope-live-search.webp"
+              alt="CineScope live movie search showing Titanic results"
+              width="1200"
+              height="1000"
+            >
+            <span class="project-number">JS Homework 15</span>
+            <strong class="project-title">CineScope — Live Movie Search</strong>
+            <span class="project-description">
+              Responsive OMDb live search with debounced requests, pagination,
+              interface states, poster fallbacks, and JavaScript-generated HTML
+              and CSS.
+            </span>
+            <ul class="project-tags" aria-label="Technologies">
+              <li class="project-tag">JavaScript</li>
+              <li class="project-tag">Fetch API</li>
+              <li class="project-tag">OMDb API</li>
+              <li class="project-tag">Async/Await</li>
+              <li class="project-tag">Live Search</li>
+              <li class="project-tag">Pagination</li>
+              <li class="project-tag">Responsive Design</li>
+            </ul>
+            <nav class="project-actions" aria-label="CineScope Live Movie Search links">
+              <a class="project-action" href="https://andrii-dolzhenko.github.io/js-homework-15-omdb-live-search/">Demo</a>
+              <a class="project-action" href="https://github.com/andrii-dolzhenko/js-homework-15-omdb-live-search">Repository</a>
             </nav>
           </div>
         </li>

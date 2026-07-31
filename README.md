@@ -38,6 +38,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣2️⃣ | `js-homework-12-testing` | 🔗 Linked | Repository | DOM event handlers for button clicks, mouse tracking, and delegated list interactions, tested with Vitest and jsdom. |
 | JS 1️⃣3️⃣ | `js-homework-13-regular-expressions` | 🔗 Linked | Repository | Email and URL validation with regular expressions, additional edge-case tests, Vitest checks, and an interactive browser demo. |
 | JS 1️⃣4️⃣ | `js-homework-14-fetch-crud` | 🔗 Linked | Repository | Interactive CRUD request builder using Fetch API, async/await, JSON, HTTP methods, status handling, and JSONPlaceholder. |
+| JS 1️⃣5️⃣ | `js-homework-15-omdb-live-search` | 🔗 Linked | Repository | Responsive OMDb live search with debounced requests, pagination, interface states, poster fallbacks, and JavaScript-generated HTML and CSS. |
 
 ## Repository Features
 
@@ -65,6 +66,9 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - WebP images
 - WOFF2 fonts
 - Google Fonts
+- Fetch API
+- Async/Await
+- OMDb API
 - ESLint
 - Vitest
 - jsdom
@@ -73,6 +77,9 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 
 ```text
 full-stack-course/
+├── assets/
+│   └── previews/
+│       └── cinescope-live-search.webp
 ├── homework-01/
 ├── homework-02/
 ├── homework-03/
@@ -192,6 +199,10 @@ https://andrii-dolzhenko.github.io/js-homework-13-regular-expressions/
 https://andrii-dolzhenko.github.io/js-homework-14-fetch-crud/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-15-omdb-live-search/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -225,6 +236,7 @@ This project helps practice:
 - testing DOM event handlers with Vitest and jsdom;
 - validating email addresses and website URLs with regular expressions;
 - sending asynchronous CRUD requests with the Fetch API and handling JSON and HTTP statuses;
+- building debounced OMDb live search with interface states, pagination, and poster fallbacks;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
