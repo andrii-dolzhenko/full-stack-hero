@@ -77,9 +77,6 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 
 ```text
 full-stack-course/
-├── assets/
-│   └── previews/
-│       └── cinescope-live-search.webp
 ├── homework-01/
 ├── homework-02/
 ├── homework-03/
