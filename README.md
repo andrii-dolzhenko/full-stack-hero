@@ -39,6 +39,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣3️⃣ | `js-homework-13-regular-expressions` | 🔗 Linked | Repository | Email and URL validation with regular expressions, additional edge-case tests, Vitest checks, and an interactive browser demo. |
 | JS 1️⃣4️⃣ | `js-homework-14-fetch-crud` | 🔗 Linked | Repository | Interactive CRUD request builder using Fetch API, async/await, JSON, HTTP methods, status handling, and JSONPlaceholder. |
 | JS 1️⃣5️⃣ | `js-homework-15-omdb-live-search` | 🔗 Linked | Repository | Responsive OMDb live search with debounced requests, pagination, interface states, poster fallbacks, and JavaScript-generated HTML and CSS. |
+| JS 1️⃣6️⃣ | `js-homework-16-skyflow-gulp` | 🔗 Linked | Repository | Responsive Gulp automation dashboard with SCSS compilation, BrowserSync live reload, Autoprefixer, CSS property and media query sorting, source maps, and production CSS minification. |
 
 ## Repository Features
 
@@ -61,6 +62,10 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - Bootstrap 5
 - SCSS
 - Gulp
+- BrowserSync
+- PostCSS
+- Autoprefixer
+- cssnano
 - Tailwind CSS 4
 - Vite
 - WebP images
@@ -200,6 +205,10 @@ https://andrii-dolzhenko.github.io/js-homework-14-fetch-crud/
 https://andrii-dolzhenko.github.io/js-homework-15-omdb-live-search/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-16-skyflow-gulp/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -234,6 +243,7 @@ This project helps practice:
 - validating email addresses and website URLs with regular expressions;
 - sending asynchronous CRUD requests with the Fetch API and handling JSON and HTTP statuses;
 - building debounced OMDb live search with interface states, pagination, and poster fallbacks;
+- automating SCSS compilation, live reload, CSS sorting, source maps, and production minification with Gulp;
 - running JavaScript homework tests with Vitest;
 - rendering dynamic single-page app sections from local JavaScript data;
 - managing UI state, filters, modals, theme toggles, and localStorage;
