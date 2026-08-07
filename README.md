@@ -2,7 +2,7 @@
 
 > A collection of front-end homework projects created during a full-stack development course.
 
-This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, and basic front-end tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, and practicing JavaScript fundamentals.
+This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, and modern front-end build tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, practicing JavaScript fundamentals, and working with modern build workflows.
 
 ## Project Overview
 
@@ -40,6 +40,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣4️⃣ | `js-homework-14-fetch-crud` | 🔗 Linked | Repository | Interactive CRUD request builder using Fetch API, async/await, JSON, HTTP methods, status handling, and JSONPlaceholder. |
 | JS 1️⃣5️⃣ | `js-homework-15-omdb-live-search` | 🔗 Linked | Repository | Responsive OMDb live search with debounced requests, pagination, interface states, poster fallbacks, and JavaScript-generated HTML and CSS. |
 | JS 1️⃣6️⃣ | `js-homework-16-skyflow-gulp` | 🔗 Linked | Repository | Responsive Gulp automation dashboard with SCSS compilation, BrowserSync live reload, Autoprefixer, CSS property and media query sorting, source maps, and production CSS minification. |
+| JS 1️⃣7️⃣ | `js-homework-17-mamma-agata-webpack`       | 🔗 Linked | Repository | Responsive Mamma Agata cookbook launch and event landing page bundled with Webpack 5, featuring content-hashed assets, local fonts, vendor splitting, optimized images, and interactive JavaScript components. |
 
 ## Repository Features
 
@@ -68,6 +69,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - cssnano
 - Tailwind CSS 4
 - Vite
+- Webpack 5
 - WebP images
 - WOFF2 fonts
 - Google Fonts
@@ -209,6 +211,10 @@ https://andrii-dolzhenko.github.io/js-homework-15-omdb-live-search/
 https://andrii-dolzhenko.github.io/js-homework-16-skyflow-gulp/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-17-mamma-agata-webpack/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -254,5 +260,4 @@ This project helps practice:
 
 ## Author
 
-**Andrii Dolzhenko**  
-Full-stack development course student
+**© Andrii Dolzhenko. All Rights Reserved. 2026**
