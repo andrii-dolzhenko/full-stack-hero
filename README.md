@@ -43,6 +43,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣7️⃣ | `js-homework-17-mamma-agata-webpack`          | 🔗 Linked | Repository | Responsive Mamma Agata cookbook launch and event landing page bundled with Webpack 5, featuring content-hashed assets, local fonts, vendor splitting, optimized images, and interactive JavaScript components.              |
 | JS 1️⃣8️⃣ | `js-homework-18-mamma-agata-webpack-advanced` | 🔗 Linked | Repository | Advanced Mamma Agata Webpack workflow with DevServer live reload, external production CSS, LESS and SCSS preprocessing, Babel, TypeScript, ESLint, and Webpack Bundle Analyzer.                                             |
 | JS 1️⃣9️⃣ | `js-homework-19-typescript-basic`             | 🔗 Linked | Repository | TypeScript fundamentals with typed functions, custom object types, enums, default parameters, error handling, and automated Vitest tests.                                                                                   |
+| JS 2️⃣0️⃣ | `js-homework-20-typescript-advanced`          | 🔗 Linked | Repository | Advanced TypeScript practice with interfaces, method decorators, namespaces, typed profile creation, automated Vitest tests, and an interactive browser demo. |
 
 ## Repository Features
 
@@ -226,6 +227,10 @@ https://andrii-dolzhenko.github.io/js-homework-18-mamma-agata-webpack-advanced/
 https://andrii-dolzhenko.github.io/js-homework-19-typescript-basic/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/js-homework-20-typescript-advanced/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -271,6 +276,7 @@ This project helps practice:
 
 - configuring advanced Webpack workflows with DevServer, LESS, SCSS, Babel, TypeScript, ESLint, and bundle analysis;
 - practicing TypeScript fundamentals with typed functions, custom object types, enums, default parameters, and error handling.
+- practicing advanced TypeScript with interfaces, method decorators, namespaces, typed profile creation, and scoped APIs.
 
 ## Author
 
