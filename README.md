@@ -2,7 +2,7 @@
 
 > A collection of front-end homework projects created during a full-stack development course.
 
-This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, and modern front-end build tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, practicing JavaScript fundamentals, and working with modern build workflows.
+This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React**, and modern front-end build tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, practicing JavaScript fundamentals, and working with modern build workflows.
 
 ## Project Overview
 
@@ -44,6 +44,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣8️⃣ | `js-homework-18-mamma-agata-webpack-advanced` | 🔗 Linked | Repository | Advanced Mamma Agata Webpack workflow with DevServer live reload, external production CSS, LESS and SCSS preprocessing, Babel, TypeScript, ESLint, and Webpack Bundle Analyzer.                                             |
 | JS 1️⃣9️⃣ | `js-homework-19-typescript-basic`             | 🔗 Linked | Repository | TypeScript fundamentals with typed functions, custom object types, enums, default parameters, error handling, and automated Vitest tests.                                                                                   |
 | JS 2️⃣0️⃣ | `js-homework-20-typescript-advanced`          | 🔗 Linked | Repository | Advanced TypeScript practice with interfaces, method decorators, namespaces, typed profile creation, automated Vitest tests, and an interactive browser demo. |
+| React 1️⃣ | `react-homework-01-init`                      | ✅ Local  | Separate project | A responsive React and TypeScript daily-focus application with reusable Button and Input components, shared validation, state updates, keyboard support, and automated Vitest tests. |
 
 ## Repository Features
 
@@ -63,6 +64,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - CSS3
 - JavaScript basics
 - TypeScript
+- React 19
 - SVG assets
 - Bootstrap 5
 - SCSS
@@ -82,6 +84,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - OMDb API
 - ESLint
 - Vitest
+- React Testing Library
 - jsdom
 
 ## Project Structure
@@ -277,6 +280,7 @@ This project helps practice:
 - configuring advanced Webpack workflows with DevServer, LESS, SCSS, Babel, TypeScript, ESLint, and bundle analysis;
 - practicing TypeScript fundamentals with typed functions, custom object types, enums, default parameters, and error handling.
 - practicing advanced TypeScript with interfaces, method decorators, namespaces, typed profile creation, and scoped APIs.
+- building reusable functional React components with typed props, state, shared event handlers, input validation, and responsive layouts.
 
 ## Author
 
