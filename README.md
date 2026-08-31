@@ -45,6 +45,9 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | JS 1️⃣9️⃣ | `js-homework-19-typescript-basic`             | 🔗 Linked | Repository | TypeScript fundamentals with typed functions, custom object types, enums, default parameters, error handling, and automated Vitest tests.                                                                                   |
 | JS 2️⃣0️⃣ | `js-homework-20-typescript-advanced`          | 🔗 Linked | Repository | Advanced TypeScript practice with interfaces, method decorators, namespaces, typed profile creation, automated Vitest tests, and an interactive browser demo. |
 | React 1️⃣ | `react-homework-01-init`                      | 🔗 Linked | Repository | A responsive React and TypeScript daily-focus application with reusable Button and Input components, shared validation, state updates, keyboard support, and automated Vitest tests. |
+| React 2️⃣ | `react-homework-02-stateful-stateless`           | 🔗 Linked | Repository | A React exercise focused on stateful and stateless components, component responsibilities, props, state, and reusable UI composition. |
+| React 3️⃣ | `react-homework-03-controlled-uncontrolled`       | 🔗 Linked | Repository | A responsive weather app with controlled city search, an uncontrolled observation form, and live weather loaded with `useEffect`. |
+| React 4️⃣ | `react-homework-04-use-wanderly`                   | 🔗 Linked | Repository | A responsive travel inspiration app using React 19 `use()`, `Suspense`, and an `ErrorBoundary` for asynchronous destination recommendations. |
 
 ## Repository Features
 
@@ -235,7 +238,19 @@ https://andrii-dolzhenko.github.io/js-homework-20-typescript-advanced/
 ```
 
 ```text
-https://react-homework-01-init.vercel.app/
+https://andrii-dolzhenko.github.io/react-homework-01-init/
+```
+
+```text
+https://andrii-dolzhenko.github.io/react-homework-02-stateful-stateless/
+```
+
+```text
+https://andrii-dolzhenko.github.io/react-homework-03-controlled-uncontrolled/
+```
+
+```text
+https://andrii-dolzhenko.github.io/react-homework-04-use-wanderly/
 ```
 
 ## Learning Goals
@@ -285,6 +300,9 @@ This project helps practice:
 - practicing TypeScript fundamentals with typed functions, custom object types, enums, default parameters, and error handling.
 - practicing advanced TypeScript with interfaces, method decorators, namespaces, typed profile creation, and scoped APIs.
 - building reusable functional React components with typed props, state, shared event handlers, input validation, and responsive layouts.
+- separating stateful and stateless React component responsibilities and passing data through props.
+- working with controlled and uncontrolled form inputs and loading external data with `useEffect`.
+- reading asynchronous Promise results with React 19 `use()`, displaying pending UI with `Suspense`, and handling rejected Promises with an `ErrorBoundary`.
 
 ## Author
 
