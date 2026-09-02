@@ -48,6 +48,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 2️⃣ | `react-homework-02-stateful-stateless`           | 🔗 Linked | Repository | A React exercise focused on stateful and stateless components, component responsibilities, props, state, and reusable UI composition. |
 | React 3️⃣ | `react-homework-03-controlled-uncontrolled`       | 🔗 Linked | Repository | A responsive weather app with controlled city search, an uncontrolled observation form, and live weather loaded with `useEffect`. |
 | React 4️⃣ | `react-homework-04-use-wanderly`                   | 🔗 Linked | Repository | A responsive travel inspiration app using React 19 `use()`, `Suspense`, and an `ErrorBoundary` for asynchronous destination recommendations. |
+| React 5️⃣ | `react-homework-05-useeffect-axios-quakescope`        | 🔗 Linked | Repository | A responsive seismic intelligence dashboard using React `useEffect` and Axios to visualize live and historical USGS earthquake data on an interactive 3D globe. |
 
 ## Repository Features
 
@@ -251,6 +252,10 @@ https://andrii-dolzhenko.github.io/react-homework-03-controlled-uncontrolled/
 
 ```text
 https://andrii-dolzhenko.github.io/react-homework-04-use-wanderly/
+```
+
+```text
+https://react-homework-05-useeffect-axios-q.vercel.app/
 ```
 
 ## Learning Goals
