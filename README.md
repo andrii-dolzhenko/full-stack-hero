@@ -255,7 +255,7 @@ https://andrii-dolzhenko.github.io/react-homework-04-use-wanderly/
 ```
 
 ```text
-https://react-homework-05-useeffect-axios-q.vercel.app/
+https://github.com/andrii-dolzhenko/react-homework-05-useeffect-axios-quakescope
 ```
 
 ## Learning Goals
