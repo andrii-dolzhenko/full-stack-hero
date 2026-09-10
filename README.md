@@ -50,6 +50,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 4️⃣ | `react-homework-04-use-wanderly`                   | 🔗 Linked | Repository | A responsive travel inspiration app using React 19 `use()`, `Suspense`, and an `ErrorBoundary` for asynchronous destination recommendations. |
 | React 5️⃣ | `react-homework-05-useeffect-axios-quakescope`        | 🔗 Linked | Repository | A responsive seismic intelligence dashboard using React `useEffect` and Axios to visualize live and historical USGS earthquake data on an interactive 3D globe. |
 | React 6️⃣ | `react-homework-06-react-router-atlasroute`              | 🔗 Linked | Repository | A responsive country explorer SPA built with React Router 7, including nested and dynamic routes, loaders, query parameters, active navigation, and route-level error handling. |
+| React 7️⃣ | `react-homework-07-react-context-atlasroute`             | 🔗 Linked | Repository | AtlasRoute extended with React Context for persistent Light/Dark theme, Metric/Imperial units, saved countries, My Atlas, and optimized global state without prop drilling. |
 
 ## Repository Features
 
@@ -71,6 +72,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - TypeScript
 - React 19
 - React Router 7
+- React Context API
 - SVG assets
 - Bootstrap 5
 - SCSS
@@ -264,6 +266,10 @@ https://github.com/andrii-dolzhenko/react-homework-05-useeffect-axios-quakescope
 https://andrii-dolzhenko.github.io/react-homework-06-react-router-atlasroute/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/react-homework-07-react-context-atlasroute/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -315,6 +321,7 @@ This project helps practice:
 - working with controlled and uncontrolled form inputs and loading external data with `useEffect`.
 - reading asynchronous Promise results with React 19 `use()`, displaying pending UI with `Suspense`, and handling rejected Promises with an `ErrorBoundary`.
 - configuring client-side navigation with React Router 7, including nested and dynamic routes, loaders, query parameters, active links, and route-level error handling.
+- managing application-wide state with React Context, including persistent theme and unit preferences, saved countries, memoized context actions, and deep consumers without prop drilling.
 
 ## Author
 
