@@ -51,6 +51,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 5️⃣ | `react-homework-05-useeffect-axios-quakescope`        | 🔗 Linked | Repository | A responsive seismic intelligence dashboard using React `useEffect` and Axios to visualize live and historical USGS earthquake data on an interactive 3D globe. |
 | React 6️⃣ | `react-homework-06-react-router-atlasroute`              | 🔗 Linked | Repository | A responsive country explorer SPA built with React Router 7, including nested and dynamic routes, loaders, query parameters, active navigation, and route-level error handling. |
 | React 7️⃣ | `react-homework-07-react-context-atlasroute`             | 🔗 Linked | Repository | AtlasRoute extended with React Context for persistent Light/Dark theme, Metric/Imperial units, saved countries, My Atlas, and optimized global state without prop drilling. |
+| React 8️⃣ | `react-homework-08-redux-toolkit-atlasroute`             | 🔗 Linked | Repository | AtlasRoute migrated to Redux Toolkit with centralized feature slices for preferences, saved countries, and recently viewed destinations, plus persisted global state. |
 
 ## Repository Features
 
@@ -73,6 +74,8 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - React 19
 - React Router 7
 - React Context API
+- Redux Toolkit
+- React Redux
 - SVG assets
 - Bootstrap 5
 - SCSS
@@ -270,6 +273,10 @@ https://andrii-dolzhenko.github.io/react-homework-06-react-router-atlasroute/
 https://andrii-dolzhenko.github.io/react-homework-07-react-context-atlasroute/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/react-homework-08-redux-toolkit-atlasroute/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -322,6 +329,7 @@ This project helps practice:
 - reading asynchronous Promise results with React 19 `use()`, displaying pending UI with `Suspense`, and handling rejected Promises with an `ErrorBoundary`.
 - configuring client-side navigation with React Router 7, including nested and dynamic routes, loaders, query parameters, active links, and route-level error handling.
 - managing application-wide state with React Context, including persistent theme and unit preferences, saved countries, memoized context actions, and deep consumers without prop drilling.
+- managing application-wide state with Redux Toolkit using `configureStore`, `createSlice`, `Provider`, selectors, actions, persisted state, and independent feature slices.
 
 ## Author
 
