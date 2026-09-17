@@ -52,6 +52,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 6️⃣ | `react-homework-06-react-router-atlasroute`              | 🔗 Linked | Repository | A responsive country explorer SPA built with React Router 7, including nested and dynamic routes, loaders, query parameters, active navigation, and route-level error handling. |
 | React 7️⃣ | `react-homework-07-react-context-atlasroute`             | 🔗 Linked | Repository | AtlasRoute extended with React Context for persistent Light/Dark theme, Metric/Imperial units, saved countries, My Atlas, and optimized global state without prop drilling. |
 | React 8️⃣ | `react-homework-08-redux-toolkit-atlasroute`             | 🔗 Linked | Repository | AtlasRoute migrated to Redux Toolkit with centralized feature slices for preferences, saved countries, and recently viewed destinations, plus persisted global state. |
+| React 9️⃣ | `react-homework-09-redux-thunk-atlasroute`               | 🔗 Linked | Repository | AtlasRoute extended with async Redux Toolkit flows using `createAsyncThunk`, request lifecycle states, retryable errors, session caching, and live weather, local time, and climate insights. |
 
 ## Repository Features
 
@@ -76,6 +77,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - React Context API
 - Redux Toolkit
 - React Redux
+- Redux Thunk (`createAsyncThunk`)
 - SVG assets
 - Bootstrap 5
 - SCSS
@@ -277,6 +279,10 @@ https://andrii-dolzhenko.github.io/react-homework-07-react-context-atlasroute/
 https://andrii-dolzhenko.github.io/react-homework-08-redux-toolkit-atlasroute/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/react-homework-09-redux-thunk-atlasroute/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -330,6 +336,7 @@ This project helps practice:
 - configuring client-side navigation with React Router 7, including nested and dynamic routes, loaders, query parameters, active links, and route-level error handling.
 - managing application-wide state with React Context, including persistent theme and unit preferences, saved countries, memoized context actions, and deep consumers without prop drilling.
 - managing application-wide state with Redux Toolkit using `configureStore`, `createSlice`, `Provider`, selectors, actions, persisted state, and independent feature slices.
+- handling asynchronous Redux workflows with `createAsyncThunk`, `pending` / `fulfilled` / `rejected` lifecycle states, retryable errors, request deduplication, session caching, and API-driven country insights.
 
 ## Author
 
