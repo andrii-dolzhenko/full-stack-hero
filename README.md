@@ -54,6 +54,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 8️⃣ | `react-homework-08-redux-toolkit-atlasroute`             | 🔗 Linked | Repository | AtlasRoute migrated to Redux Toolkit with centralized feature slices for preferences, saved countries, and recently viewed destinations, plus persisted global state. |
 | React 9️⃣ | `react-homework-09-redux-thunk-atlasroute`               | 🔗 Linked | Repository | AtlasRoute extended with async Redux Toolkit flows using `createAsyncThunk`, request lifecycle states, retryable errors, session caching, and live weather, local time, and climate insights. |
 | React 🔟 | `react-homework-10-forms-validation-atlasroute`          | 🔗 Linked | Repository | AtlasRoute extended with a two-step trip-planning flow using Formik + Yup and React Hook Form, including field and cross-field validation, accessible error states, Redux Toolkit persistence, and saved trip plans. |
+| React 1️⃣1️⃣ | `react-homework-11-material-ui-atlasroute`               | 🔗 Linked | Repository | AtlasRoute extended with Material UI, per-trip readiness tracking, named traveler checklists, responsive dialogs, saved-trip filtering and sorting, and persisted readiness state. |
 
 ## Repository Features
 
@@ -289,6 +290,7 @@ https://andrii-dolzhenko.github.io/react-homework-09-redux-thunk-atlasroute/
 
 ```text
 https://andrii-dolzhenko.github.io/react-homework-10-forms-validation-atlasroute/
+https://andrii-dolzhenko.github.io/react-homework-11-material-ui-atlasroute/
 ```
 
 ## Learning Goals
