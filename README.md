@@ -55,6 +55,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 9️⃣ | `react-homework-09-redux-thunk-atlasroute`               | 🔗 Linked | Repository | AtlasRoute extended with async Redux Toolkit flows using `createAsyncThunk`, request lifecycle states, retryable errors, session caching, and live weather, local time, and climate insights. |
 | React 🔟 | `react-homework-10-forms-validation-atlasroute`          | 🔗 Linked | Repository | AtlasRoute extended with a two-step trip-planning flow using Formik + Yup and React Hook Form, including field and cross-field validation, accessible error states, Redux Toolkit persistence, and saved trip plans. |
 | React 1️⃣1️⃣ | `react-homework-11-material-ui-atlasroute`               | 🔗 Linked | Repository | AtlasRoute extended with Material UI, per-trip readiness tracking, named traveler checklists, responsive dialogs, saved-trip filtering and sorting, and persisted readiness state. |
+| React 1️⃣2️⃣ | `react-homework-12-vitest-user-profile` | 🔗 Linked | Repository | A React profile project with async JSONPlaceholder data loading, loading/success/error states, retry handling, mocked `fetch` requests, and Vitest + React Testing Library tests. |
 
 ## Repository Features
 
@@ -296,6 +297,10 @@ https://andrii-dolzhenko.github.io/react-homework-10-forms-validation-atlasroute
 https://andrii-dolzhenko.github.io/react-homework-11-material-ui-atlasroute/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/react-homework-12-vitest-user-profile/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -350,6 +355,7 @@ This project helps practice:
 - managing application-wide state with React Context, including persistent theme and unit preferences, saved countries, memoized context actions, and deep consumers without prop drilling.
 - managing application-wide state with Redux Toolkit using `configureStore`, `createSlice`, `Provider`, selectors, actions, persisted state, and independent feature slices.
 - handling asynchronous Redux workflows with `createAsyncThunk`, `pending` / `fulfilled` / `rejected` lifecycle states, retryable errors, request deduplication, session caching, and API-driven country insights.
+- testing asynchronous React component behavior with Vitest and React Testing Library, including mocked `fetch` requests, loading, success, error, and retry states.
 
 ## Author
 
