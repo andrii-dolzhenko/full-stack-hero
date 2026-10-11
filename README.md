@@ -58,6 +58,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 1️⃣2️⃣ | `react-homework-12-vitest-user-profile` | 🔗 Linked | Repository | A React profile project with async JSONPlaceholder data loading, loading/success/error states, retry handling, mocked `fetch` requests, and Vitest + React Testing Library tests. |
 | React 1️⃣3️⃣ | `react-homework-13-memoization-noir-edit` | 🔗 Linked | Repository | A responsive NOIR / EDIT product catalogue demonstrating `useMemo`, `useCallback`, and `React.memo` with Baseline vs Optimized rendering, performance counters, filtering, sorting, favorites, product details, and responsive routing. |
 | React 1️⃣4️⃣ | `react-homework-14-react-libraries-noir-edit` | 🔗 Linked | Repository | NOIR / EDIT extended with `React Icons`, `React Toastify`, and `React Idle Timer`, including session activity tracking, inactivity/resume feedback, reusable interface icons, toast notifications, filtering, sorting, favorites, product details, and responsive routing. |
+| Full-Stack Project · P0 | `helmsight` | 🔗 Linked | Repository | A responsive project-delivery management workspace with portfolio health, governance, risks, milestones, EVM analytics, weekly reporting, and meeting notes. Built with React 19, Redux Toolkit, and React Router. |
 
 ## Repository Features
 
@@ -311,6 +312,10 @@ https://andrii-dolzhenko.github.io/react-homework-13-memoization-noir-edit/
 https://andrii-dolzhenko.github.io/react-homework-14-react-libraries-noir-edit/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/helmsight/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -368,6 +373,7 @@ This project helps practice:
 - testing asynchronous React component behavior with Vitest and React Testing Library, including mocked `fetch` requests, loading, success, error, and retry states.
 - optimizing React rendering with `useMemo`, `useCallback`, and `React.memo`, comparing Baseline and Optimized behavior with render and calculation counters.
 - integrating specialized React libraries such as `React Icons`, `React Toastify`, and `React Idle Timer` to add reusable iconography, non-blocking user feedback, and inactivity-aware session behavior.
+- developing a project-delivery workspace with React Router, Redux Toolkit, EVM calculations, responsive dashboards, accessibility checks, and CI/CD deployment.
 
 ## Author
 
