@@ -1,8 +1,8 @@
 # Full Stack Course Projects
 
-> A collection of front-end homework projects created during a full-stack development course.
+> A collection of front-end and Node.js homework projects created during a full-stack development course.
 
-This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React**, and modern front-end build tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, practicing JavaScript fundamentals, and working with modern build workflows.
+This repository contains several practice projects built with **HTML**, **CSS**, **JavaScript**, **TypeScript**, **React**, **Node.js**, and modern build tooling. The main focus is learning semantic markup, page structure, navigation, forms, CSS selectors, styling, layout techniques, organizing multi-page websites, practicing JavaScript fundamentals, and working with modern build workflows.
 
 ## Project Overview
 
@@ -59,6 +59,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 1️⃣3️⃣ | `react-homework-13-memoization-noir-edit` | 🔗 Linked | Repository | A responsive NOIR / EDIT product catalogue demonstrating `useMemo`, `useCallback`, and `React.memo` with Baseline vs Optimized rendering, performance counters, filtering, sorting, favorites, product details, and responsive routing. |
 | React 1️⃣4️⃣ | `react-homework-14-react-libraries-noir-edit` | 🔗 Linked | Repository | NOIR / EDIT extended with `React Icons`, `React Toastify`, and `React Idle Timer`, including session activity tracking, inactivity/resume feedback, reusable interface icons, toast notifications, filtering, sorting, favorites, product details, and responsive routing. |
 | Full-Stack Project · P0 | `helmsight` | 🔗 Linked | Repository | A responsive project-delivery management workspace with portfolio health, governance, risks, milestones, EVM analytics, weekly reporting, and meeting notes. Built with React 19, Redux Toolkit, and React Router. |
+| Node.js 1️⃣ | `njs-homework-01-base-hex` | 🔗 Linked | Repository | Interactive Base64/Hex encoding and decoding using Node.js Buffer functions, with format validation, NODE_ENV examples, and automated tests. |
 
 ## Repository Features
 
@@ -316,6 +317,10 @@ https://andrii-dolzhenko.github.io/react-homework-14-react-libraries-noir-edit/
 https://andrii-dolzhenko.github.io/helmsight/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/njs-homework-01-base-hex/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -374,6 +379,7 @@ This project helps practice:
 - optimizing React rendering with `useMemo`, `useCallback`, and `React.memo`, comparing Baseline and Optimized behavior with render and calculation counters.
 - integrating specialized React libraries such as `React Icons`, `React Toastify`, and `React Idle Timer` to add reusable iconography, non-blocking user feedback, and inactivity-aware session behavior.
 - developing a project-delivery workspace with React Router, Redux Toolkit, EVM calculations, responsive dashboards, accessibility checks, and CI/CD deployment.
+- working with Node.js environment variables, Buffer, Base64/Hex encoding, input validation, and built-in tests.
 
 ## Author
 
