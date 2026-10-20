@@ -60,6 +60,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | React 1️⃣4️⃣ | `react-homework-14-react-libraries-noir-edit` | 🔗 Linked | Repository | NOIR / EDIT extended with `React Icons`, `React Toastify`, and `React Idle Timer`, including session activity tracking, inactivity/resume feedback, reusable interface icons, toast notifications, filtering, sorting, favorites, product details, and responsive routing. |
 | Full-Stack Project · P0 | `helmsight` | 🔗 Linked | Repository | A responsive project-delivery management workspace with portfolio health, governance, risks, milestones, EVM analytics, weekly reporting, and meeting notes. Built with React 19, Redux Toolkit, and React Router. |
 | Node.js 1️⃣ | `njs-homework-01-base-hex` | 🔗 Linked | Repository | Interactive Base64/Hex encoding and decoding using Node.js Buffer functions, with format validation, NODE_ENV examples, and automated tests. |
+| Node.js 2️⃣ | `njs-homework-02-async-fs` | 🔗 Linked | Repository | Asynchronous file operations with fs/promises, an interactive virtual-file playground, error handling, and automated tests. |
 
 ## Repository Features
 
@@ -109,6 +110,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - Vitest
 - React Testing Library
 - jsdom
+- Node.js (`fs/promises`)
 
 ## Project Structure
 
@@ -321,6 +323,10 @@ https://andrii-dolzhenko.github.io/helmsight/
 https://andrii-dolzhenko.github.io/njs-homework-01-base-hex/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/njs-homework-02-async-fs/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -380,6 +386,7 @@ This project helps practice:
 - integrating specialized React libraries such as `React Icons`, `React Toastify`, and `React Idle Timer` to add reusable iconography, non-blocking user feedback, and inactivity-aware session behavior.
 - developing a project-delivery workspace with React Router, Redux Toolkit, EVM calculations, responsive dashboards, accessibility checks, and CI/CD deployment.
 - working with Node.js environment variables, Buffer, Base64/Hex encoding, input validation, and built-in tests.
+- working with asynchronous filesystem operations, UTF-8 text, filesystem errors, and temporary-file tests.
 
 ## Author
 
