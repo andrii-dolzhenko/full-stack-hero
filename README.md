@@ -61,6 +61,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | Full-Stack Project · P0 | `helmsight` | 🔗 Linked | Repository | A responsive project-delivery management workspace with portfolio health, governance, risks, milestones, EVM analytics, weekly reporting, and meeting notes. Built with React 19, Redux Toolkit, and React Router. |
 | Node.js 1️⃣ | `njs-homework-01-base-hex` | 🔗 Linked | Repository | Interactive Base64/Hex encoding and decoding using Node.js Buffer functions, with format validation, NODE_ENV examples, and automated tests. |
 | Node.js 2️⃣ | `njs-homework-02-async-fs` | 🔗 Linked | Repository | Asynchronous file operations with fs/promises, an interactive virtual-file playground, error handling, and automated tests. |
+| Node.js 3️⃣ | `njs-homework-03-event-loop` | 🔗 Linked | Repository | Node.js asynchronous callbacks with nextTick, setImmediate, and setTimeout, a step-by-step simulation, and automated tests. |
 
 ## Repository Features
 
@@ -110,7 +111,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - Vitest
 - React Testing Library
 - jsdom
-- Node.js (`fs/promises`)
+- Node.js (`fs/promises`, `process.nextTick`, `setImmediate`, `setTimeout`)
 
 ## Project Structure
 
@@ -327,6 +328,10 @@ https://andrii-dolzhenko.github.io/njs-homework-01-base-hex/
 https://andrii-dolzhenko.github.io/njs-homework-02-async-fs/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/njs-homework-03-event-loop/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -387,6 +392,7 @@ This project helps practice:
 - developing a project-delivery workspace with React Router, Redux Toolkit, EVM calculations, responsive dashboards, accessibility checks, and CI/CD deployment.
 - working with Node.js environment variables, Buffer, Base64/Hex encoding, input validation, and built-in tests.
 - working with asynchronous filesystem operations, UTF-8 text, filesystem errors, and temporary-file tests.
+- scheduling Node.js callbacks with nextTick, setImmediate, and setTimeout, and distinguishing a simulation from native execution.
 
 ## Author
 
