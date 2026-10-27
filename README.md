@@ -62,6 +62,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | Node.js 1️⃣ | `njs-homework-01-base-hex` | 🔗 Linked | Repository | Interactive Base64/Hex encoding and decoding using Node.js Buffer functions, with format validation, NODE_ENV examples, and automated tests. |
 | Node.js 2️⃣ | `njs-homework-02-async-fs` | 🔗 Linked | Repository | Asynchronous file operations with fs/promises, an interactive virtual-file playground, error handling, and automated tests. |
 | Node.js 3️⃣ | `njs-homework-03-event-loop` | 🔗 Linked | Repository | Node.js asynchronous callbacks with nextTick, setImmediate, and setTimeout, a step-by-step simulation, and automated tests. |
+| Node.js 4️⃣ | `njs-homework-04-http-server` | 🔗 Linked | Repository | Native Node.js HTTP server with HTML pages, URL-encoded form handling, validation, HTML escaping, a 1 MB body limit, and a responsive Hamster Gym interface. |
 
 ## Repository Features
 
@@ -332,6 +333,10 @@ https://andrii-dolzhenko.github.io/njs-homework-02-async-fs/
 https://andrii-dolzhenko.github.io/njs-homework-03-event-loop/
 ```
 
+```text
+https://njs-homework-04-http-server.vercel.app/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -393,6 +398,7 @@ This project helps practice:
 - working with Node.js environment variables, Buffer, Base64/Hex encoding, input validation, and built-in tests.
 - working with asynchronous filesystem operations, UTF-8 text, filesystem errors, and temporary-file tests.
 - scheduling Node.js callbacks with nextTick, setImmediate, and setTimeout, and distinguishing a simulation from native execution.
+- building a native HTTP server with manual routing, URL-encoded form parsing, response headers, input validation, HTML escaping, and request-size limits.
 
 ## Author
 
