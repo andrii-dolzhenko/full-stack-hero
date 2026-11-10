@@ -64,6 +64,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | Node.js 3️⃣ | `njs-homework-03-event-loop` | 🔗 Linked | Repository | Node.js asynchronous callbacks with nextTick, setImmediate, and setTimeout, a step-by-step simulation, and automated tests. |
 | Node.js 4️⃣ | `njs-homework-04-http-server` | 🔗 Linked | Repository | Native Node.js HTTP server with HTML pages, URL-encoded form handling, validation, HTML escaping, a 1 MB body limit, and a responsive Hamster Gym interface. |
 | Node.js 5️⃣ | `njs-homework-05-crypto` | 🔗 Linked | Repository | SHA-256 hashing, PBKDF2 password hashing with salt, password verification, and an interactive browser demo. |
+| Node.js 6️⃣ | `njs-homework-06-gzip` | 🔗 Linked | Repository | Asynchronous Gzip compression and decompression with Node.js streams, unique output names, and an interactive browser demo. |
 
 ## Repository Features
 
@@ -340,6 +341,10 @@ https://njs-homework-04-http-server.vercel.app/
 
 ```text
 https://andrii-dolzhenko.github.io/njs-homework-05-crypto/
+```
+
+```text
+https://andrii-dolzhenko.github.io/njs-homework-06-gzip/
 ```
 
 ## Learning Goals
