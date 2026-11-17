@@ -66,6 +66,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | Node.js 5️⃣ | `njs-homework-05-crypto` | 🔗 Linked | Repository | SHA-256 hashing, PBKDF2 password hashing with salt, password verification, and an interactive browser demo. |
 | Node.js 6️⃣ | `njs-homework-06-gzip` | 🔗 Linked | Repository | Asynchronous Gzip compression and decompression with Node.js streams, unique output names, and an interactive browser demo. |
 | Express 1️⃣ | `express-homework-01-rest-api` | 🔗 Linked | Repository | Express 5 REST API with modular users/articles CRUD controllers, Map storage, request validation, 23 automated tests, and an interactive browser-simulated API playground. |
+| Express 2️⃣ | `express-homework-02-middleware` | 🔗 Linked | Repository | Express 5 REST API with logging, validation, demo/strict auth, article access control, server-side sessions, 36 automated tests, and a browser-simulated middleware playground. |
 
 ## Repository Features
 
@@ -350,6 +351,10 @@ https://andrii-dolzhenko.github.io/njs-homework-06-gzip/
 
 ```text
 https://andrii-dolzhenko.github.io/express-homework-01-rest-api/
+```
+
+```text
+https://andrii-dolzhenko.github.io/express-homework-02-middleware/
 ```
 
 ## Learning Goals
