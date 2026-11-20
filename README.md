@@ -67,6 +67,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | Node.js 6️⃣ | `njs-homework-06-gzip` | 🔗 Linked | Repository | Asynchronous Gzip compression and decompression with Node.js streams, unique output names, and an interactive browser demo. |
 | Express 1️⃣ | `express-homework-01-rest-api` | 🔗 Linked | Repository | Express 5 REST API with modular users/articles CRUD controllers, Map storage, request validation, 23 automated tests, and an interactive browser-simulated API playground. |
 | Express 2️⃣ | `express-homework-02-middleware` | 🔗 Linked | Repository | Express 5 REST API with logging, validation, demo/strict auth, article access control, server-side sessions, 36 automated tests, and a browser-simulated middleware playground. |
+| Express 3️⃣ | `express-homework-03-pug-ejs` | 🔗 Linked | Repository | Express 5 with server-rendered PUG user pages, EJS article pages, responsive CSS, preserved REST CRUD and sessions, 52 automated tests, and a static GitHub Pages preview. |
 
 ## Repository Features
 
@@ -355,6 +356,10 @@ https://andrii-dolzhenko.github.io/express-homework-01-rest-api/
 
 ```text
 https://andrii-dolzhenko.github.io/express-homework-02-middleware/
+```
+
+```text
+https://andrii-dolzhenko.github.io/express-homework-03-pug-ejs/
 ```
 
 ## Learning Goals
