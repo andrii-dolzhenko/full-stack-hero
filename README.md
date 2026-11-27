@@ -69,6 +69,7 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 | Express 2️⃣ | `express-homework-02-middleware` | 🔗 Linked | Repository | Express 5 REST API with logging, validation, demo/strict auth, article access control, server-side sessions, 36 automated tests, and a browser-simulated middleware playground. |
 | Express 3️⃣ | `express-homework-03-pug-ejs` | 🔗 Linked | Repository | Express 5 with server-rendered PUG user pages, EJS article pages, responsive CSS, preserved REST CRUD and sessions, 52 automated tests, and a static GitHub Pages preview. |
 | Express 4️⃣ | `express-homework-04-jwt-cookies` | 🔗 Linked | Repository | Express 5 with favicon, Light/Dark preferences via cookies, JWT authentication in HttpOnly cookies, an interactive local dashboard, 100 automated tests, and a read-only GitHub Pages preview. |
+| Express 5️⃣ | `express-homework-05-passport-sessions` | 🔗 Linked | Repository | Express 5 with Passport Local authentication, bcrypt password hashing, express-session, protected routes, PUG/EJS pages, 100 automated tests, and a read-only GitHub Pages preview. |
 
 ## Repository Features
 
@@ -119,6 +120,11 @@ The repository works as a course catalogue. Earlier homework assignments are sti
 - React Testing Library
 - jsdom
 - Node.js (`fs/promises`, `process.nextTick`, `setImmediate`, `setTimeout`)
+- Express 5
+- Passport.js (Local Strategy)
+- express-session
+- bcryptjs
+- Supertest
 
 ## Project Structure
 
@@ -367,6 +373,10 @@ https://andrii-dolzhenko.github.io/express-homework-03-pug-ejs/
 https://andrii-dolzhenko.github.io/express-homework-04-jwt-cookies/
 ```
 
+```text
+https://andrii-dolzhenko.github.io/express-homework-05-passport-sessions/
+```
+
 ## Learning Goals
 
 This project helps practice:
@@ -429,6 +439,8 @@ This project helps practice:
 - working with asynchronous filesystem operations, UTF-8 text, filesystem errors, and temporary-file tests.
 - scheduling Node.js callbacks with nextTick, setImmediate, and setTimeout, and distinguishing a simulation from native execution.
 - building a native HTTP server with manual routing, URL-encoded form parsing, response headers, input validation, HTML escaping, and request-size limits.
+
+- implementing local authentication with Passport.js, password hashing with bcrypt, server-side sessions, and protected Express routes.
 
 ## Author
 
